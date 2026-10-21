@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BSC TechPeru SAC 2025 | Cuadro de Mando Integral</title>
+  <meta name="description" content="Sistema empresarial de Balanced Scorecard (Cuadro de Mando Integral) para TechPeru SAC - Ejercicio 2025.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <!-- MÓDULO 1: INICIO DE SESIÓN -->
+  <div id="loginView" class="login-wrap">
+    <div class="login-card">
+      <div class="brand brand-login">
+        <span class="brand-mark"><i class="fa-solid fa-chart-line"></i></span>
+        <div>
+          <strong>TechPeru SAC</strong>
+          <small>Balanced Scorecard · Ejercicio 2025</small>
+        </div>
+      </div>
+
+      <div class="login-header">
+        <h1>Iniciar Sesión</h1>
+        <p class="muted">Ingresa al Sistema de Gestión Estratégica y Control de Desempeño BSC.</p>
+      </div>
+
+      <form id="loginForm" autocomplete="on">
+        <div class="form-group">
+          <label for="loginUser">Correo Corporativo</label>
+          <div class="input-icon-wrap">
+            <i class="fa-regular fa-envelope input-icon"></i>
+            <input id="loginUser" type="email" autocomplete="username" value="admin@techperu.pe" required placeholder="correo@techperu.pe">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="loginPass">Contraseña de Acceso</label>
+          <div class="input-icon-wrap">
+            <i class="fa-solid fa-lock input-icon"></i>
+            <input id="loginPass" type="password" autocomplete="current-password" value="admin123" required placeholder="••••••••">
+          </div>
+        </div>
+
+        <div id="loginError" class="alert-box error hidden">
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <span>Credenciales incorrectas. Usa las cuentas de prueba sugeridas abajo.</span>
+        </div>
+
+        <button class="btn btn-primary btn-full" type="submit" id="loginBtn">
+          <span>Ingresar al Sistema BSC</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+
+      <div class="demo-credentials">
+        <div class="demo-cred-header">
+          <i class="fa-solid fa-key"></i>
+          <strong>Cuentas de Demostración (1 Clic para Probar):</strong>
+        </div>
+        <div class="demo-btn-grid">
+          <button type="button" class="btn-demo-fill" data-user="admin@techperu.pe" data-pass="admin123" data-role="Administrador">
+            <div class="badge-role admin">Admin</div>
+            <div class="cred-info">
+              <strong>Carlos Mendoza</strong>
+              <small>admin@techperu.pe · Dir. General</small>
+            </div>
+          </button>
+          <button type="button" class="btn-demo-fill" data-user="gerente@techperu.pe" data-pass="admin123" data-role="Gerente">
+            <div class="badge-role gerente">Gerente</div>
+            <div class="cred-info">
+              <strong>Patricia Vargas</strong>
+              <small>gerente@techperu.pe · Gte. Comercial</small>
+            </div>
+          </button>
+          <button type="button" class="btn-demo-fill" data-user="analista@techperu.pe" data-pass="admin123" data-role="Analista">
+            <div class="badge-role analista">Analista</div>
+            <div class="cred-info">
+              <strong>Control de Gestión</strong>
+              <small>analista@techperu.pe · Auditoría BSC</small>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="login-footer-info">
+        <span class="badge-org"><i class="fa-solid fa-building-shield"></i> RUC: 20549281901 · Lima, Perú</span>
+        <small class="muted">Versión 2025.2 · Datos oficiales vinculados a BSC_TechPeru_Ampliado_2025.xlsx</small>
+      </div>
+    </div>
+
+    <div class="login-art">
+      <div class="art-overlay"></div>
+      <div class="art-orbit orbit1"></div>
+      <div class="art-orbit orbit2"></div>
+      <div class="art-content">
+        <div class="art-badge">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>SISTEMA INTEGRADO BSC KAPLAN & NORTON</span>
+        </div>
+        <h2>Alineación Estratégica,<br>Control y Resultados 2025</h2>
+        <p>Monitoreo integral de los 12 objetivos estratégicos y 36 indicadores clave de desempeño clasificados bajo las 4 perspectivas del Balanced Scorecard.</p>
+        
+        <div class="art-stats-grid">
+          <div class="stat-card-art">
+            <span class="art-num">4</span>
+            <small>Perspectivas BSC</small>
+          </div>
+          <div class="stat-card-art">
+            <span class="art-num">12</span>
+            <small>Objetivos Clave</small>
+          </div>
+          <div class="stat-card-art">
+            <span class="art-num">36</span>
+            <small>Indicadores (KPI)</small>
+          </div>
+          <div class="stat-card-art highlight">
+            <span class="art-num">84.2%</span>
+            <small>Cumplimiento Global</small>
+          </div>
+        </div>
+
+        <div class="art-perspectives-pills">
+          <span class="persp-pill fin"><i class="fa-solid fa-sack-dollar"></i> Financiera (87.8%)</span>
+          <span class="persp-pill cli"><i class="fa-solid fa-users"></i> Clientes (86.0%)</span>
+          <span class="persp-pill proc"><i class="fa-solid fa-gears"></i> Procesos (79.4%)</span>
+          <span class="persp-pill apr"><i class="fa-solid fa-graduation-cap"></i> Aprendizaje (83.8%)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APLICACIÓN PRINCIPAL (SHELL CONECTADO) -->
+  <div id="appView" class="app-shell hidden">
+    <!-- MENÚ LATERAL FIJO (SIDEBAR) -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <span class="brand-mark"><i class="fa-solid fa-chart-line"></i></span>
+        <div class="brand-text">
+          <strong>TechPeru SAC</strong>
+          <small>Balanced Scorecard 2025</small>
+        </div>
+        <button id="sidebarClose" class="icon-btn mobile-only" aria-label="Cerrar menú">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="org-badge-card">
+        <div class="org-avatar"><i class="fa-solid fa-building"></i></div>
+        <div class="org-details">
+          <strong>TechPeru S.A.C.</strong>
+          <span class="period-pill"><i class="fa-solid fa-calendar-check"></i> Ejercicio 2025</span>
+        </div>
+      </div>
+
+      <nav id="mainNav" class="sidebar-nav" aria-label="Navegación principal">
+        <div class="nav-section-label">TABLERO EJECUTIVO</div>
+        <button class="nav-item active" data-page="dashboard" id="nav-dashboard">
+          <i class="fa-solid fa-gauge-high nav-icon"></i>
+          <span>Dashboard Ejecutivo</span>
+        </button>
+        <button class="nav-item" data-page="mapa" id="nav-mapa">
+          <i class="fa-solid fa-diagram-project nav-icon"></i>
+          <span>Mapa Estratégico</span>
+        </button>
+
+        <div class="nav-section-label">GESTIÓN Y CONTROL</div>
+        <button class="nav-item" data-page="objetivos" id="nav-objetivos">
+          <i class="fa-solid fa-bullseye nav-icon"></i>
+          <span>Objetivos Estratégicos</span>
+          <span class="nav-count">12</span>
+        </button>
+        <button class="nav-item" data-page="kpis" id="nav-kpis">
+          <i class="fa-solid fa-chart-simple nav-icon"></i>
+          <span>Indicadores (KPI)</span>
+          <span class="nav-count">36</span>
+        </button>
+        <button class="nav-item" data-page="simulador" id="nav-simulador">
+          <i class="fa-solid fa-sliders nav-icon"></i>
+          <span>Registro y Simulador</span>
+          <span class="badge-accent">What-If</span>
+        </button>
+        <button class="nav-item" data-page="iniciativas" id="nav-iniciativas">
+          <i class="fa-solid fa-list-check nav-icon"></i>
+          <span>Iniciativas Estratégicas</span>
+        </button>
+
+        <div class="nav-section-label">ANÁLISIS Y SISTEMA</div>
+        <button class="nav-item" data-page="reportes" id="nav-reportes">
+          <i class="fa-solid fa-file-invoice nav-icon"></i>
+          <span>Reportes Ejecutivos</span>
+        </button>
+        <button class="nav-item" data-page="administracion" id="nav-administracion">
+          <i class="fa-solid fa-gears nav-icon"></i>
+          <span>Administración y Config.</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="bsc-health-box" id="sidebarHealthSummary">
+          <div class="health-header">
+            <span class="health-title"><i class="fa-solid fa-heart-pulse"></i> Salud BSC 2025</span>
+            <span class="health-score" id="sidebarScore">84.2%</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar-fill warn" id="sidebarProgressFill" style="width: 84.2%"></div>
+          </div>
+          <div class="health-status-badge" id="sidebarStatusBadge">
+            <i class="fa-solid fa-triangle-exclamation"></i> En Riesgo
+          </div>
+        </div>
+
+        <div class="user-profile-sidebar">
+          <div class="avatar" id="sideUserAvatar">CM</div>
+          <div class="user-meta">
+            <strong id="sideUserName">Lic. Carlos Mendoza</strong>
+            <small id="sideUserRole">Administrador General</small>
+          </div>
+          <button id="logoutBtn" class="btn-logout" title="Cerrar sesión" aria-label="Cerrar sesión">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- COLUMNA PRINCIPAL DE CONTENIDO -->
+    <div class="main-column">
+      <!-- TOPBAR FIJA CORPORATIVA -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <button id="menuToggle" class="icon-btn mobile-only" aria-label="Abrir menú lateral">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="breadcrumb">
+            <span class="crumb-corp"><i class="fa-solid fa-building"></i> TechPeru SAC</span>
+            <span class="crumb-sep">/</span>
+            <span class="crumb-period">Período 2025</span>
+            <span class="crumb-sep">/</span>
+            <strong id="breadcrumbPage" class="crumb-current">Dashboard Ejecutivo</strong>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <!-- Selector rápido de rol activo -->
+          <div class="role-selector-wrap" title="Cambiar rol activo para probar permisos">
+            <label for="roleSwitchSelect"><i class="fa-solid fa-user-gear"></i> Rol:</label>
+            <select id="roleSwitchSelect" class="form-select-sm">
+              <option value="Administrador">Administrador (Carlos Mendoza)</option>
+              <option value="Gerente">Gerente (Patricia Vargas)</option>
+              <option value="Analista">Analista (Control de Gestión)</option>
+            </select>
+          </div>
+
+          <!-- Botón de Alerta de KPIs Críticos -->
+          <div class="critical-alert-dropdown-wrap">
+            <button id="criticalAlertsBtn" class="icon-btn critical-bell-btn" title="Alertas de Indicadores Críticos">
+              <i class="fa-solid fa-bell"></i>
+              <span id="criticalCountBadge" class="bell-badge">6</span>
+            </button>
+            <!-- Dropdown flotante de alertas críticas -->
+            <div id="criticalDropdown" class="critical-dropdown hidden">
+              <div class="crit-dropdown-header">
+                <strong><i class="fa-solid fa-triangle-exclamation"></i> 6 Indicadores Críticos (&lt; 75%)</strong>
+                <small>Requieren atención inmediata</small>
+              </div>
+              <div class="crit-dropdown-list" id="criticalDropdownList">
+                <!-- Se llena dinámicamente con JS -->
+              </div>
+              <div class="crit-dropdown-footer">
+                <button class="btn btn-sm btn-soft btn-full" id="btnGoToCriticalSimulator">
+                  <i class="fa-solid fa-sliders"></i> Abrir Simulador de Corrección
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Perfil de usuario en topbar -->
+          <div class="top-profile">
+            <div class="avatar small-avatar" id="topUserAvatar">CM</div>
+            <div class="top-profile-info">
+              <strong id="topUserName">Lic. Carlos Mendoza</strong>
+              <small id="topUserRole">Administrador</small>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ÁREA DE CONTENIDO DINÁMICO (9 MÓDULOS) -->
+      <main id="pageContent" class="page-content" tabindex="-1">
+        <!-- Renderizado dinámicamente por js/app.js -->
+      </main>
+
+      <!-- FOOTER CORPORATIVO -->
+      <footer class="app-footer">
+        <div class="footer-left">
+          <strong>TechPeru S.A.C.</strong> · Sistema de Balanced Scorecard Corporativo · Ejercicio Fiscal 2025
+        </div>
+        <div class="footer-right">
+          <span>Fuente: <code>BSC_TechPeru_Ampliado_2025.xlsx</code></span>
+          <span class="footer-sep">·</span>
+          <span>4 Perspectivas · 12 Objetivos · 36 KPIs</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- CAPA MODAL REUTILIZABLE -->
+  <div id="modalLayer" class="modal-layer hidden" role="presentation">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <header class="modal-header">
+        <div>
+          <span class="modal-eyebrow" id="modalEyebrow">FORMULARIO</span>
+          <h2 id="modalTitle">Título del Modal</h2>
+        </div>
+        <button id="modalClose" class="icon-btn modal-close-btn" aria-label="Cerrar modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </header>
+      <div id="modalBody" class="modal-body">
+        <!-- Contenido dinámico del modal -->
+      </div>
+      <footer id="modalFooter" class="modal-footer">
+        <!-- Botones dinámicos del modal -->
+      </footer>
+    </section>
+  </div>
+
+  <!-- CONTENEDOR DE NOTIFICACIONES TOAST -->
+  <div id="toastRegion" class="toast-region" aria-live="polite"></div>
+</body>
+</html>

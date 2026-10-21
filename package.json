@@ -1,0 +1,19 @@
+{
+  "name": "bsc_prototipo",
+  "version": "1.0.0",
+  "description": "Prototipo funcional corporativo de **Balanced Scorecard (BSC)** desarrollado con base en la estructura y datos oficiales de `BSC_TechPeru_Ampliado_2025.xlsx`.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}

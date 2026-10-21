@@ -1,0 +1,1123 @@
+{
+  "🏠 Portada": [
+    [
+      "BALANCED SCORECARD AMPLIADO — TechPeru SAC  |  2025"
+    ],
+    [
+      "4 Perspectivas · 12 Objetivos Estratégicos · 36 Indicadores (KPIs)"
+    ],
+    [],
+    [
+      "CONTENIDO DEL LIBRO"
+    ],
+    [
+      "  ▸  📊 BSC Completo",
+      "Resumen de los 36 KPIs con semáforo automático"
+    ],
+    [
+      "  ▸  💰 Financiera",
+      "3 objetivos · 9 KPIs financieros con detalle"
+    ],
+    [
+      "  ▸  👥 Clientes",
+      "3 objetivos · 9 KPIs de clientes con detalle"
+    ],
+    [
+      "  ▸  🔧 Procesos",
+      "3 objetivos · 9 KPIs de procesos internos"
+    ],
+    [
+      "  ▸  📚 Aprendizaje",
+      "3 objetivos · 9 KPIs de talento e innovación"
+    ],
+    [
+      "  ▸  📈 Dashboard",
+      "Semáforo ejecutivo global y ranking de KPIs"
+    ],
+    [],
+    [
+      "💡 Cómo usar este archivo:"
+    ],
+    [
+      "1. Los valores en AZUL son entradas manuales (columna 'Real'). Cámbialos con los datos reales."
+    ],
+    [
+      "2. Los valores en NEGRO son fórmulas que se calculan automáticamente."
+    ],
+    [
+      "3. El semáforo (✅ ⚠️ ❌) se actualiza solo según el % de cumplimiento."
+    ],
+    [
+      "4. Verde ≥90% | Ámbar 75-89% | Rojo <75%"
+    ],
+    [
+      "5. Para KPIs inversos (menor=mejor, ej: costos, defectos): cumplimiento = Meta/Real × 100"
+    ]
+  ],
+  "📊 BSC Completo": [
+    [
+      "BALANCED SCORECARD COMPLETO — TechPeru SAC 2025  |  4 Perspectivas · 12 Objetivos · 36 KPIs"
+    ],
+    [
+      "Perspectiva",
+      "Objetivo Estratégico",
+      "Indicador (KPI)",
+      "Unidad",
+      "Meta",
+      "Real",
+      "% Cumpl.",
+      "Estado"
+    ],
+    [
+      "💰 PERSPECTIVA FINANCIERA",
+      "OBJ-F1: Incrementar la Rentabilidad",
+      "ROE – Retorno sobre Patrimonio",
+      "%",
+      "18.0",
+      "16.5",
+      "91.7%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Margen EBITDA",
+      "%",
+      "22.0",
+      "19.8",
+      "90.0%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Utilidad Neta Anual",
+      "S/ MM",
+      "2.1",
+      "1.9",
+      "89.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      "OBJ-F2: Acelerar el Crecimiento de Ingresos",
+      "Crecimiento de Ventas YoY",
+      "%",
+      "15.0",
+      "12.3",
+      "82.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Ingresos Totales Anuales",
+      "S/ MM",
+      "8.5",
+      "7.9",
+      "92.9%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Ingresos por Nuevos Productos",
+      "%",
+      "20.0",
+      "15.6",
+      "78.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      "OBJ-F3: Optimizar la Estructura de Costos",
+      "Ratio Costo Operativo / Ingreso",
+      "%",
+      "55.0",
+      "58.2",
+      "94.5%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Costo de Adquisición de Cliente (CAC)",
+      "S/",
+      "350.0",
+      "412.0",
+      "85.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Retorno sobre Activos (ROA)",
+      "%",
+      "9.0",
+      "7.8",
+      "86.7%",
+      "⚠️ EN RIESGO"
+    ],
+    [],
+    [
+      "👥 PERSPECTIVA DE CLIENTES",
+      "OBJ-C1: Maximizar la Satisfacción del Cliente",
+      "NPS – Net Promoter Score",
+      "pts",
+      "65.0",
+      "58.0",
+      "89.2%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "CSAT – Satisfacción post-venta",
+      "%",
+      "88.0",
+      "84.0",
+      "95.5%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Tiempo de Resolución de Quejas",
+      "días",
+      "2.0",
+      "2.8",
+      "71.4%",
+      "❌ CRÍTICO"
+    ],
+    [
+      null,
+      "OBJ-C2: Aumentar la Retención y Fidelización",
+      "Tasa de Retención de Clientes",
+      "%",
+      "90.0",
+      "87.0",
+      "96.7%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Tasa de Recompra (Repeat Purchase)",
+      "%",
+      "55.0",
+      "49.0",
+      "89.1%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Churn Rate (Tasa de Abandono)",
+      "%",
+      "5.0",
+      "7.2",
+      "69.4%",
+      "❌ CRÍTICO"
+    ],
+    [
+      null,
+      "OBJ-C3: Expandir la Base de Clientes",
+      "Nuevos Clientes Adquiridos",
+      "#",
+      "120.0",
+      "105.0",
+      "87.5%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Cuota de Mercado",
+      "%",
+      "8.5",
+      "7.8",
+      "91.8%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Costo por Lead Calificado",
+      "S/",
+      "180.0",
+      "215.0",
+      "83.7%",
+      "⚠️ EN RIESGO"
+    ],
+    [],
+    [
+      "🔧 PERSPECTIVA DE PROCESOS INTERNOS",
+      "OBJ-P1: Excelencia en Operaciones y Calidad",
+      "Tiempo Promedio de Entrega al Cliente",
+      "días",
+      "3.0",
+      "3.5",
+      "85.7%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Tasa de Defectos / Reclamos",
+      "%",
+      "2.0",
+      "2.8",
+      "71.4%",
+      "❌ CRÍTICO"
+    ],
+    [
+      null,
+      null,
+      "Productividad por Empleado",
+      "S/ MM",
+      "0.3",
+      "0.2",
+      "88.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      "OBJ-P2: Innovación y Desarrollo de Producto",
+      "N° Lanzamientos de Nuevos Productos",
+      "#",
+      "4.0",
+      "3.0",
+      "75.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Time-to-Market (lanzamiento)",
+      "semanas",
+      "12.0",
+      "15.0",
+      "80.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "% Ingresos de Productos < 2 años",
+      "%",
+      "25.0",
+      "18.0",
+      "72.0%",
+      "❌ CRÍTICO"
+    ],
+    [
+      null,
+      "OBJ-P3: Gestión Eficiente de Proveedores",
+      "On-Time Delivery de Proveedores (OTD)",
+      "%",
+      "95.0",
+      "92.0",
+      "96.8%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "N° Incidencias con Proveedores",
+      "#",
+      "5.0",
+      "8.0",
+      "62.5%",
+      "❌ CRÍTICO"
+    ],
+    [
+      null,
+      null,
+      "Costo de Inventario sobre Ventas",
+      "%",
+      "12.0",
+      "14.5",
+      "82.8%",
+      "⚠️ EN RIESGO"
+    ],
+    [],
+    [
+      "📚 PERSPECTIVA DE APRENDIZAJE Y CRECIMIENTO",
+      "OBJ-A1: Desarrollar el Capital Humano",
+      "Horas de Capacitación por Empleado",
+      "hrs",
+      "40.0",
+      "35.0",
+      "87.5%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "% Empleados con Plan de Desarrollo",
+      "%",
+      "80.0",
+      "72.0",
+      "90.0%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Índice de Competencias Clave Cubiertas",
+      "%",
+      "85.0",
+      "74.0",
+      "87.1%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      "OBJ-A2: Fortalecer la Cultura y el Clima",
+      "Índice de Satisfacción del Empleado",
+      "%",
+      "75.0",
+      "68.0",
+      "90.7%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      null,
+      "Rotación de Personal (Turnover)",
+      "%",
+      "8.0",
+      "10.0",
+      "80.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "% Empleados con Evaluación Desempeño",
+      "%",
+      "95.0",
+      "88.0",
+      "92.6%",
+      "✅ LOGRADO"
+    ],
+    [
+      null,
+      "OBJ-A3: Impulsar la Innovación Organizacional",
+      "Proyectos de Mejora Continua Activos",
+      "#",
+      "6.0",
+      "5.0",
+      "83.3%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "% Presupuesto I+D sobre Ingresos",
+      "%",
+      "5.0",
+      "3.8",
+      "76.0%",
+      "⚠️ EN RIESGO"
+    ],
+    [
+      null,
+      null,
+      "Ideas Implementadas de Empleados",
+      "#",
+      "24.0",
+      "16.0",
+      "66.7%",
+      "❌ CRÍTICO"
+    ],
+    [],
+    [
+      "ÍNDICE GLOBAL DE CUMPLIMIENTO (Promedio de los 36 KPIs)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "→ Ver hoja 📈 Dashboard"
+    ]
+  ],
+  "💰 Financiera": [
+    [
+      "💰 PERSPECTIVA FINANCIERA  —  3 Objetivos · 9 KPIs · TechPeru SAC 2025"
+    ],
+    [
+      "Objetivo Estratégico",
+      "Indicador (KPI)",
+      "Unidad",
+      "Meta Anual",
+      "Real Acum.",
+      "% Cumpl.",
+      "Estado",
+      "Análisis / Acción Recomendada"
+    ],
+    [
+      "OBJ-F1: Incrementar la Rentabilidad",
+      "ROE – Retorno sobre Patrimonio",
+      "%",
+      "18.0",
+      "16.5",
+      "91.7%",
+      "✅ LOGRADO",
+      "ROE por debajo del 18% meta. Revisar estructura de capital y palanca financiera."
+    ],
+    [
+      null,
+      "Margen EBITDA",
+      "%",
+      "22.0",
+      "19.8",
+      "90.0%",
+      "✅ LOGRADO",
+      "Margen comprimido por costos operativos. Plan de reducción de gastos en Q3-Q4."
+    ],
+    [
+      null,
+      "Utilidad Neta Anual",
+      "S/ MM",
+      "2.1",
+      "1.9",
+      "89.0%",
+      "⚠️ EN RIESGO",
+      "Utilidad neta al 89% de la meta. Requiere incremento de márgenes o volumen."
+    ],
+    [],
+    [
+      "OBJ-F2: Acelerar el Crecimiento de Ingresos",
+      "Crecimiento de Ventas YoY",
+      "%",
+      "15.0",
+      "12.3",
+      "82.0%",
+      "⚠️ EN RIESGO",
+      "Crecimiento al 82% de la meta. Acelerar pipeline comercial y campañas de upsell."
+    ],
+    [
+      null,
+      "Ingresos Totales Anuales",
+      "S/ MM",
+      "8.5",
+      "7.9",
+      "92.9%",
+      "✅ LOGRADO",
+      "Ingresos 7.2% por debajo de meta. Revisar estrategia de precios y mix de productos."
+    ],
+    [
+      null,
+      "Ingresos por Nuevos Productos",
+      "%",
+      "20.0",
+      "15.6",
+      "78.0%",
+      "⚠️ EN RIESGO",
+      "Nuevos productos aportan 15.6% vs. 20% meta. Acelerar lanzamiento de Pipeline Q3."
+    ],
+    [],
+    [
+      "OBJ-F3: Optimizar la Estructura de Costos",
+      "Ratio Costo Operativo / Ingreso",
+      "%",
+      "55.0",
+      "58.2",
+      "94.5%",
+      "✅ LOGRADO",
+      "Ratio de costo elevado (58.2% vs 55% meta). Automatizar procesos para reducir costos."
+    ],
+    [
+      null,
+      "Costo de Adquisición de Cliente (CAC)",
+      "S/",
+      "350.0",
+      "412.0",
+      "85.0%",
+      "⚠️ EN RIESGO",
+      "CAC de S/412 vs S/350 meta. Optimizar canales de adquisición digital."
+    ],
+    [
+      null,
+      "Retorno sobre Activos (ROA)",
+      "%",
+      "9.0",
+      "7.8",
+      "86.7%",
+      "⚠️ EN RIESGO",
+      "ROA bajo meta. Revisar eficiencia de activos y desinversión de activos ociosos."
+    ],
+    [],
+    [],
+    [
+      "📝 Valores en AZUL = entrada manual (columna Real). Formulas en NEGRO = cálculo automático. KPIs INVERSOS: menor valor = mejor resultado (defectos, costos, rotación, etc.)"
+    ]
+  ],
+  "👥 Clientes": [
+    [
+      "👥 PERSPECTIVA DE CLIENTES  —  3 Objetivos · 9 KPIs · TechPeru SAC 2025"
+    ],
+    [
+      "Objetivo Estratégico",
+      "Indicador (KPI)",
+      "Unidad",
+      "Meta Anual",
+      "Real Acum.",
+      "% Cumpl.",
+      "Estado",
+      "Análisis / Acción Recomendada"
+    ],
+    [
+      "OBJ-C1: Maximizar la Satisfacción del Cliente",
+      "NPS – Net Promoter Score",
+      "pts",
+      "65.0",
+      "58.0",
+      "89.2%",
+      "⚠️ EN RIESGO",
+      "NPS de 58 (meta 65). Implementar programa de seguimiento post-venta en 30/60/90 días."
+    ],
+    [
+      null,
+      "CSAT – Satisfacción post-venta",
+      "%",
+      "88.0",
+      "84.0",
+      "95.5%",
+      "✅ LOGRADO",
+      "CSAT al 95.5% de meta. Reforzar proceso de onboarding y soporte técnico."
+    ],
+    [
+      null,
+      "Tiempo de Resolución de Quejas",
+      "días",
+      "2.0",
+      "2.8",
+      "71.4%",
+      "❌ CRÍTICO",
+      "Tiempo de resolución 2.8 días vs. 2 días meta. Crear equipo dedicado de soporte nivel 2."
+    ],
+    [],
+    [
+      "OBJ-C2: Aumentar la Retención y Fidelización",
+      "Tasa de Retención de Clientes",
+      "%",
+      "90.0",
+      "87.0",
+      "96.7%",
+      "✅ LOGRADO",
+      "Retención al 96.7% de meta. Lanzar programa de fidelización con descuentos por volumen."
+    ],
+    [
+      null,
+      "Tasa de Recompra (Repeat Purchase)",
+      "%",
+      "55.0",
+      "49.0",
+      "89.1%",
+      "⚠️ EN RIESGO",
+      "Recompra al 89% de meta. Implementar campañas de re-engagement a los 90 días."
+    ],
+    [
+      null,
+      "Churn Rate (Tasa de Abandono)",
+      "%",
+      "5.0",
+      "7.2",
+      "69.4%",
+      "❌ CRÍTICO",
+      "Churn 7.2% vs. 5% meta (KPI inverso — CRÍTICO). Crear equipo de Customer Success."
+    ],
+    [],
+    [
+      "OBJ-C3: Expandir la Base de Clientes",
+      "Nuevos Clientes Adquiridos",
+      "#",
+      "120.0",
+      "105.0",
+      "87.5%",
+      "⚠️ EN RIESGO",
+      "105 nuevos clientes vs. 120 meta (87.5%). Ampliar fuerza de ventas en regiones."
+    ],
+    [
+      null,
+      "Cuota de Mercado",
+      "%",
+      "8.5",
+      "7.8",
+      "91.8%",
+      "✅ LOGRADO",
+      "Cuota al 91.8% de meta. Ejecutar campañas de awareness en mercados objetivo."
+    ],
+    [
+      null,
+      "Costo por Lead Calificado",
+      "S/",
+      "180.0",
+      "215.0",
+      "83.7%",
+      "⚠️ EN RIESGO",
+      "CAC por lead elevado. Migrar mayor presupuesto a canales orgánicos (SEO/contenido)."
+    ],
+    [],
+    [],
+    [
+      "📝 Valores en AZUL = entrada manual (columna Real). Formulas en NEGRO = cálculo automático. KPIs INVERSOS: menor valor = mejor resultado (defectos, costos, rotación, etc.)"
+    ]
+  ],
+  "🔧 Procesos": [
+    [
+      "🔧 PERSPECTIVA DE PROCESOS INTERNOS  —  3 Objetivos · 9 KPIs · TechPeru SAC 2025"
+    ],
+    [
+      "Objetivo Estratégico",
+      "Indicador (KPI)",
+      "Unidad",
+      "Meta Anual",
+      "Real Acum.",
+      "% Cumpl.",
+      "Estado",
+      "Análisis / Acción Recomendada"
+    ],
+    [
+      "OBJ-P1: Excelencia en Operaciones y Calidad",
+      "Tiempo Promedio de Entrega al Cliente",
+      "días",
+      "3.0",
+      "3.5",
+      "85.7%",
+      "⚠️ EN RIESGO",
+      "Entrega en 3.5 días vs. 3 días meta. Revisar cuellos de botella en picking y despacho."
+    ],
+    [
+      null,
+      "Tasa de Defectos / Reclamos",
+      "%",
+      "2.0",
+      "2.8",
+      "71.4%",
+      "❌ CRÍTICO",
+      "Defectos al 2.8% vs. 2% meta. Implementar control de calidad en cada etapa del proceso."
+    ],
+    [
+      null,
+      "Productividad por Empleado",
+      "S/ MM",
+      "0.3",
+      "0.2",
+      "88.0%",
+      "⚠️ EN RIESGO",
+      "Productividad por debajo de meta. Automatizar tareas repetitivas con RPA."
+    ],
+    [],
+    [
+      "OBJ-P2: Innovación y Desarrollo de Producto",
+      "N° Lanzamientos de Nuevos Productos",
+      "#",
+      "4.0",
+      "3.0",
+      "75.0%",
+      "⚠️ EN RIESGO",
+      "Solo 3 de 4 productos lanzados. Acelerar MVP del 4° producto para Q4."
+    ],
+    [
+      null,
+      "Time-to-Market (lanzamiento)",
+      "semanas",
+      "12.0",
+      "15.0",
+      "80.0%",
+      "⚠️ EN RIESGO",
+      "Time-to-market 25% por encima de meta. Adoptar metodología ágil en equipos de producto."
+    ],
+    [
+      null,
+      "% Ingresos de Productos < 2 años",
+      "%",
+      "25.0",
+      "18.0",
+      "72.0%",
+      "❌ CRÍTICO",
+      "Ingresos de nuevos productos al 72% de meta. Fortalecer validación de mercado pre-lanzamiento."
+    ],
+    [],
+    [
+      "OBJ-P3: Gestión Eficiente de Proveedores",
+      "On-Time Delivery de Proveedores (OTD)",
+      "%",
+      "95.0",
+      "92.0",
+      "96.8%",
+      "✅ LOGRADO",
+      "OTD al 96.8% de meta. Negociar SLAs más estrictos con los 3 proveedores críticos."
+    ],
+    [
+      null,
+      "N° Incidencias con Proveedores",
+      "#",
+      "5.0",
+      "8.0",
+      "62.5%",
+      "❌ CRÍTICO",
+      "8 incidencias vs. 5 meta. Implementar sistema de evaluación mensual de proveedores."
+    ],
+    [
+      null,
+      "Costo de Inventario sobre Ventas",
+      "%",
+      "12.0",
+      "14.5",
+      "82.8%",
+      "⚠️ EN RIESGO",
+      "Inventario al 20.8% sobre meta. Revisar política de stock mínimo y modelo de compras."
+    ],
+    [],
+    [],
+    [
+      "📝 Valores en AZUL = entrada manual (columna Real). Formulas en NEGRO = cálculo automático. KPIs INVERSOS: menor valor = mejor resultado (defectos, costos, rotación, etc.)"
+    ]
+  ],
+  "📚 Aprendizaje": [
+    [
+      "📚 PERSPECTIVA DE APRENDIZAJE Y CRECIMIENTO  —  3 Objetivos · 9 KPIs · TechPeru SAC 2025"
+    ],
+    [
+      "Objetivo Estratégico",
+      "Indicador (KPI)",
+      "Unidad",
+      "Meta Anual",
+      "Real Acum.",
+      "% Cumpl.",
+      "Estado",
+      "Análisis / Acción Recomendada"
+    ],
+    [
+      "OBJ-A1: Desarrollar el Capital Humano",
+      "Horas de Capacitación por Empleado",
+      "hrs",
+      "40.0",
+      "35.0",
+      "87.5%",
+      "⚠️ EN RIESGO",
+      "35 hrs vs. 40 hrs meta (87.5%). Agregar 2 sesiones de capacitación virtual mensual."
+    ],
+    [
+      null,
+      "% Empleados con Plan de Desarrollo",
+      "%",
+      "80.0",
+      "72.0",
+      "90.0%",
+      "✅ LOGRADO",
+      "72% vs. 80% meta. Hacer obligatoria la capacitación para todos los equipos de ventas."
+    ],
+    [
+      null,
+      "Índice de Competencias Clave Cubiertas",
+      "%",
+      "85.0",
+      "74.0",
+      "87.1%",
+      "⚠️ EN RIESGO",
+      "74% vs. 85% meta. Identificar brechas de competencias y crear plan de cierre por área."
+    ],
+    [],
+    [
+      "OBJ-A2: Fortalecer la Cultura y el Clima",
+      "Índice de Satisfacción del Empleado",
+      "%",
+      "75.0",
+      "68.0",
+      "90.7%",
+      "✅ LOGRADO",
+      "Satisfacción al 90.7% de meta. Lanzar encuesta trimestral y plan de acción en 30 días."
+    ],
+    [
+      null,
+      "Rotación de Personal (Turnover)",
+      "%",
+      "8.0",
+      "10.0",
+      "80.0%",
+      "⚠️ EN RIESGO",
+      "Rotación 10% vs. 8% meta (KPI inverso — CRÍTICO). Revisar esquema de compensación y línea de carrera."
+    ],
+    [
+      null,
+      "% Empleados con Evaluación Desempeño",
+      "%",
+      "95.0",
+      "88.0",
+      "92.6%",
+      "✅ LOGRADO",
+      "88% vs. 95% meta. Completar evaluaciones de desempeño pendientes antes de fin de Q3."
+    ],
+    [],
+    [
+      "OBJ-A3: Impulsar la Innovación Organizacional",
+      "Proyectos de Mejora Continua Activos",
+      "#",
+      "6.0",
+      "5.0",
+      "83.3%",
+      "⚠️ EN RIESGO",
+      "5 de 6 proyectos activos (83.3%). Conformar equipo de mejora continua multidisciplinario."
+    ],
+    [
+      null,
+      "% Presupuesto I+D sobre Ingresos",
+      "%",
+      "5.0",
+      "3.8",
+      "76.0%",
+      "⚠️ EN RIESGO",
+      "Presupuesto I+D al 76% de meta. Presentar propuesta de incremento para próximo presupuesto."
+    ],
+    [
+      null,
+      "Ideas Implementadas de Empleados",
+      "#",
+      "24.0",
+      "16.0",
+      "66.7%",
+      "❌ CRÍTICO",
+      "16 de 24 ideas implementadas (66.7%). Crear plataforma digital de gestión de ideas."
+    ],
+    [],
+    [],
+    [
+      "📝 Valores en AZUL = entrada manual (columna Real). Formulas en NEGRO = cálculo automático. KPIs INVERSOS: menor valor = mejor resultado (defectos, costos, rotación, etc.)"
+    ]
+  ],
+  "📈 Dashboard": [
+    [
+      "📊 DASHBOARD EJECUTIVO BSC — TechPeru SAC 2025"
+    ],
+    [],
+    [],
+    [
+      "💰 Financiera",
+      null,
+      null,
+      null,
+      "👥 Clientes"
+    ],
+    [
+      "KPI",
+      "Meta",
+      "Real",
+      "% Cumpl.",
+      "KPI",
+      "Meta",
+      "Real",
+      "% Cumpl."
+    ],
+    [
+      "ROE",
+      "18.0",
+      "16.5",
+      "✅ 91.7%",
+      "NPS",
+      "65.0",
+      "58.0",
+      "⚠️ 89.2%"
+    ],
+    [
+      "Margen EBITDA",
+      "22.0",
+      "19.8",
+      "✅ 90.0%",
+      "CSAT",
+      "88.0",
+      "84.0",
+      "✅ 95.5%"
+    ],
+    [
+      "Utilidad Neta",
+      "2.1",
+      "1.9",
+      "⚠️ 89.0%",
+      "T. Resolución",
+      "2.0",
+      "2.8",
+      "❌ 71.4%"
+    ],
+    [
+      "Crec. Ventas",
+      "15.0",
+      "12.3",
+      "⚠️ 82.0%",
+      "Retención",
+      "90.0",
+      "87.0",
+      "✅ 96.7%"
+    ],
+    [
+      "Ingresos",
+      "8.5",
+      "7.9",
+      "✅ 92.9%",
+      "Recompra",
+      "55.0",
+      "49.0",
+      "⚠️ 89.1%"
+    ],
+    [
+      "Ing. Nuevos Prod",
+      "20.0",
+      "15.6",
+      "⚠️ 78.0%",
+      "Churn Rate",
+      "5.0",
+      "7.2",
+      "❌ 69.4%"
+    ],
+    [
+      "Ratio Costo/Ing",
+      "55.0",
+      "58.2",
+      "✅ 94.5%",
+      "Nuevos Clientes",
+      "120.0",
+      "105.0",
+      "⚠️ 87.5%"
+    ],
+    [
+      "CAC",
+      "350.0",
+      "412.0",
+      "⚠️ 85.0%",
+      "Cuota Mercado",
+      "8.5",
+      "7.8",
+      "✅ 91.8%"
+    ],
+    [
+      "ROA",
+      "9.0",
+      "7.8",
+      "⚠️ 86.7%",
+      "Costo/Lead",
+      "180.0",
+      "215.0",
+      "⚠️ 83.7%"
+    ],
+    [],
+    [
+      "🔧 Procesos",
+      null,
+      null,
+      null,
+      "📚 Aprendizaje"
+    ],
+    [
+      "KPI",
+      "Meta",
+      "Real",
+      "% Cumpl.",
+      "KPI",
+      "Meta",
+      "Real",
+      "% Cumpl."
+    ],
+    [
+      "T. Entrega",
+      "3.0",
+      "3.5",
+      "⚠️ 85.7%",
+      "Hrs Capacitación",
+      "40.0",
+      "35.0",
+      "⚠️ 87.5%"
+    ],
+    [
+      "Defectos",
+      "2.0",
+      "2.8",
+      "❌ 71.4%",
+      "Empl. Capacitados",
+      "80.0",
+      "72.0",
+      "✅ 90.0%"
+    ],
+    [
+      "Productividad",
+      "0.3",
+      "0.2",
+      "⚠️ 88.0%",
+      "Comp. Cubiertas",
+      "85.0",
+      "74.0",
+      "⚠️ 87.1%"
+    ],
+    [
+      "Lanzamientos",
+      "4.0",
+      "3.0",
+      "⚠️ 75.0%",
+      "Satisf. Emp.",
+      "75.0",
+      "68.0",
+      "✅ 90.7%"
+    ],
+    [
+      "Time-to-Market",
+      "12.0",
+      "15.0",
+      "⚠️ 80.0%",
+      "Rotación",
+      "8.0",
+      "10.0",
+      "⚠️ 80.0%"
+    ],
+    [
+      "Ing. Nuevos Prod",
+      "25.0",
+      "18.0",
+      "❌ 72.0%",
+      "Eval. Desempeño",
+      "95.0",
+      "88.0",
+      "✅ 92.6%"
+    ],
+    [
+      "OTD Proveed.",
+      "95.0",
+      "92.0",
+      "✅ 96.8%",
+      "Proy. Mejora",
+      "6.0",
+      "5.0",
+      "⚠️ 83.3%"
+    ],
+    [
+      "Incidencias",
+      "5.0",
+      "8.0",
+      "❌ 62.5%",
+      "Presupto I+D",
+      "5.0",
+      "3.8",
+      "⚠️ 76.0%"
+    ],
+    [
+      "ÍNDICE GLOBAL DE CUMPLIMIENTO BSC 2025"
+    ],
+    [
+      "⚠️  Cumplimiento Promedio: 84.2%  —  EN RIESGO  |  (36 KPIs evaluados)"
+    ],
+    [],
+    [
+      "✅ LOGRADO: 11 KPIs",
+      null,
+      "⚠️ EN RIESGO: 19 KPIs",
+      null,
+      "❌ CRÍTICO: 6 KPIs"
+    ],
+    [],
+    [
+      "Lectura: ✅ Cumplimiento ≥90%  |  ⚠️ Entre 75% y 89%  |  ❌ Menor a 75%  |  KPIs INVERSOS: defectos, costos, rotación, tiempo (menor valor = mejor desempeño)"
+    ]
+  ]
+}

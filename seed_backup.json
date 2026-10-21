@@ -1,0 +1,2764 @@
+{
+  "company": {
+    "name": "TechPeru SAC",
+    "taxId": "20549281901",
+    "sector": "Tecnología, Servicios Cloud y Transformación Digital",
+    "period": "2025",
+    "currency": "S/ (Soles Peruanos)",
+    "headquarters": "Lima, Perú"
+  },
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Lic. Carlos Mendoza",
+      "email": "admin@techperu.pe",
+      "role": "Administrador",
+      "title": "Director General & Estrategia",
+      "avatar": "CM"
+    },
+    {
+      "id": "usr-2",
+      "name": "Ing. Patricia Vargas",
+      "email": "gerente@techperu.pe",
+      "role": "Gerente",
+      "title": "Gerente Comercial y Marketing",
+      "avatar": "PV"
+    },
+    {
+      "id": "usr-3",
+      "name": "Ing. Fernando Soto",
+      "email": "operaciones@techperu.pe",
+      "role": "Gerente",
+      "title": "Gerente de Operaciones & TI",
+      "avatar": "FS"
+    },
+    {
+      "id": "usr-4",
+      "name": "Mg. Andrea Rivas",
+      "email": "rrhh@techperu.pe",
+      "role": "Gerente",
+      "title": "Gerente de Talento Humano",
+      "avatar": "AR"
+    },
+    {
+      "id": "usr-5",
+      "name": "Analista de Control",
+      "email": "analista@techperu.pe",
+      "role": "Analista",
+      "title": "Especialista en Control de Gestión BSC",
+      "avatar": "AC"
+    }
+  ],
+  "perspectives": [
+    {
+      "id": "FIN",
+      "key": "financiera",
+      "name": "Perspectiva Financiera",
+      "weight": 25,
+      "color": "#1e3a8a",
+      "soft": "#eff6ff",
+      "border": "#3b82f6",
+      "icon": "fa-sack-dollar"
+    },
+    {
+      "id": "CLI",
+      "key": "clientes",
+      "name": "Perspectiva del Cliente",
+      "weight": 25,
+      "color": "#0369a1",
+      "soft": "#f0f9ff",
+      "border": "#0ea5e9",
+      "icon": "fa-users"
+    },
+    {
+      "id": "PROC",
+      "key": "procesos",
+      "name": "Perspectiva de Procesos Internos",
+      "weight": 25,
+      "color": "#0f766e",
+      "soft": "#f0fdf4",
+      "border": "#14b8a6",
+      "icon": "fa-gears"
+    },
+    {
+      "id": "APR",
+      "key": "aprendizaje",
+      "name": "Perspectiva de Aprendizaje y Crecimiento",
+      "weight": 25,
+      "color": "#6d28d9",
+      "soft": "#faf5ff",
+      "border": "#8b5cf6",
+      "icon": "fa-graduation-cap"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "OBJ-F1",
+      "code": "OBJ-F1",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "name": "Incrementar la Rentabilidad",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en incrementar la rentabilidad dentro de la Perspectiva Financiera.",
+      "weight": 33.333333333333336,
+      "owner": "Lic. Carlos Mendoza (Dir. Finanzas)",
+      "kpiIds": [
+        "KPI-01",
+        "KPI-02",
+        "KPI-03"
+      ]
+    },
+    {
+      "id": "OBJ-F2",
+      "code": "OBJ-F2",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "name": "Acelerar el Crecimiento de Ingresos",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en acelerar el crecimiento de ingresos dentro de la Perspectiva Financiera.",
+      "weight": 33.333333333333336,
+      "owner": "Lic. Carlos Mendoza (Dir. Finanzas)",
+      "kpiIds": [
+        "KPI-04",
+        "KPI-05",
+        "KPI-06"
+      ]
+    },
+    {
+      "id": "OBJ-F3",
+      "code": "OBJ-F3",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "name": "Optimizar la Estructura de Costos",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en optimizar la estructura de costos dentro de la Perspectiva Financiera.",
+      "weight": 33.333333333333336,
+      "owner": "Lic. Carlos Mendoza (Dir. Finanzas)",
+      "kpiIds": [
+        "KPI-07",
+        "KPI-08",
+        "KPI-09"
+      ]
+    },
+    {
+      "id": "OBJ-C1",
+      "code": "OBJ-C1",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "name": "Maximizar la Satisfacción del Cliente",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en maximizar la satisfacción del cliente dentro de la Perspectiva del Cliente.",
+      "weight": 33.333333333333336,
+      "owner": "Ing. Patricia Vargas (Gte. Comercial)",
+      "kpiIds": [
+        "KPI-10",
+        "KPI-11",
+        "KPI-12"
+      ]
+    },
+    {
+      "id": "OBJ-C2",
+      "code": "OBJ-C2",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "name": "Aumentar la Retención y Fidelización",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en aumentar la retención y fidelización dentro de la Perspectiva del Cliente.",
+      "weight": 33.333333333333336,
+      "owner": "Ing. Patricia Vargas (Gte. Comercial)",
+      "kpiIds": [
+        "KPI-13",
+        "KPI-14",
+        "KPI-15"
+      ]
+    },
+    {
+      "id": "OBJ-C3",
+      "code": "OBJ-C3",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "name": "Expandir la Base de Clientes",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en expandir la base de clientes dentro de la Perspectiva del Cliente.",
+      "weight": 33.333333333333336,
+      "owner": "Ing. Patricia Vargas (Gte. Comercial)",
+      "kpiIds": [
+        "KPI-16",
+        "KPI-17",
+        "KPI-18"
+      ]
+    },
+    {
+      "id": "OBJ-P1",
+      "code": "OBJ-P1",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "name": "Excelencia en Operaciones y Calidad",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en excelencia en operaciones y calidad dentro de la Perspectiva de Procesos Internos.",
+      "weight": 33.333333333333336,
+      "owner": "Ing. Fernando Soto (Gte. Operaciones & TI)",
+      "kpiIds": [
+        "KPI-19",
+        "KPI-20",
+        "KPI-21"
+      ]
+    },
+    {
+      "id": "OBJ-P2",
+      "code": "OBJ-P2",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "name": "Innovación y Desarrollo de Producto",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en innovación y desarrollo de producto dentro de la Perspectiva de Procesos Internos.",
+      "weight": 33.333333333333336,
+      "owner": "Ing. Fernando Soto (Gte. Operaciones & TI)",
+      "kpiIds": [
+        "KPI-22",
+        "KPI-23",
+        "KPI-24"
+      ]
+    },
+    {
+      "id": "OBJ-P3",
+      "code": "OBJ-P3",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "name": "Gestión Eficiente de Proveedores",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en gestión eficiente de proveedores dentro de la Perspectiva de Procesos Internos.",
+      "weight": 33.333333333333336,
+      "owner": "Ing. Fernando Soto (Gte. Operaciones & TI)",
+      "kpiIds": [
+        "KPI-25",
+        "KPI-26",
+        "KPI-27"
+      ]
+    },
+    {
+      "id": "OBJ-A1",
+      "code": "OBJ-A1",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "name": "Desarrollar el Capital Humano",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en desarrollar el capital humano dentro de la Perspectiva de Aprendizaje y Crecimiento.",
+      "weight": 33.333333333333336,
+      "owner": "Mg. Andrea Rivas (Gte. Talento Humano)",
+      "kpiIds": [
+        "KPI-28",
+        "KPI-29",
+        "KPI-30"
+      ]
+    },
+    {
+      "id": "OBJ-A2",
+      "code": "OBJ-A2",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "name": "Fortalecer la Cultura y el Clima",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en fortalecer la cultura y el clima dentro de la Perspectiva de Aprendizaje y Crecimiento.",
+      "weight": 33.333333333333336,
+      "owner": "Mg. Andrea Rivas (Gte. Talento Humano)",
+      "kpiIds": [
+        "KPI-31",
+        "KPI-32",
+        "KPI-33"
+      ]
+    },
+    {
+      "id": "OBJ-A3",
+      "code": "OBJ-A3",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "name": "Impulsar la Innovación Organizacional",
+      "description": "Objetivo estratégico de TechPeru SAC enfocado en impulsar la innovación organizacional dentro de la Perspectiva de Aprendizaje y Crecimiento.",
+      "weight": 33.333333333333336,
+      "owner": "Mg. Andrea Rivas (Gte. Talento Humano)",
+      "kpiIds": [
+        "KPI-34",
+        "KPI-35",
+        "KPI-36"
+      ]
+    }
+  ],
+  "kpis": [
+    {
+      "id": "KPI-01",
+      "code": "KPI-01",
+      "name": "ROE – Retorno sobre Patrimonio",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F1",
+      "objectiveName": "Incrementar la Rentabilidad",
+      "unit": "%",
+      "meta": 18,
+      "real": 16.5,
+      "achievement": 91.7,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "ROE por debajo del 18% meta. Revisar estructura de capital y palanca financiera.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 13.06,
+          "meta": 18
+        },
+        {
+          "period": "Mar 2025",
+          "value": 13.75,
+          "meta": 18
+        },
+        {
+          "period": "May 2025",
+          "value": 14.44,
+          "meta": 18
+        },
+        {
+          "period": "Jul 2025",
+          "value": 15.13,
+          "meta": 18
+        },
+        {
+          "period": "Set 2025",
+          "value": 15.81,
+          "meta": 18
+        },
+        {
+          "period": "Nov 2025",
+          "value": 16.5,
+          "meta": 18
+        }
+      ]
+    },
+    {
+      "id": "KPI-02",
+      "code": "KPI-02",
+      "name": "Margen EBITDA",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F1",
+      "objectiveName": "Incrementar la Rentabilidad",
+      "unit": "%",
+      "meta": 22,
+      "real": 19.8,
+      "achievement": 90,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "Margen comprimido por costos operativos. Plan de reducción de gastos en Q3-Q4.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 15.68,
+          "meta": 22
+        },
+        {
+          "period": "Mar 2025",
+          "value": 16.5,
+          "meta": 22
+        },
+        {
+          "period": "May 2025",
+          "value": 17.33,
+          "meta": 22
+        },
+        {
+          "period": "Jul 2025",
+          "value": 18.15,
+          "meta": 22
+        },
+        {
+          "period": "Set 2025",
+          "value": 18.98,
+          "meta": 22
+        },
+        {
+          "period": "Nov 2025",
+          "value": 19.8,
+          "meta": 22
+        }
+      ]
+    },
+    {
+      "id": "KPI-03",
+      "code": "KPI-03",
+      "name": "Utilidad Neta Anual",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F1",
+      "objectiveName": "Incrementar la Rentabilidad",
+      "unit": "S/ MM",
+      "meta": 2.1,
+      "real": 1.87,
+      "achievement": 89,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Utilidad neta al 89% de la meta. Requiere incremento de márgenes o volumen.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 1.48,
+          "meta": 2.1
+        },
+        {
+          "period": "Mar 2025",
+          "value": 1.56,
+          "meta": 2.1
+        },
+        {
+          "period": "May 2025",
+          "value": 1.64,
+          "meta": 2.1
+        },
+        {
+          "period": "Jul 2025",
+          "value": 1.71,
+          "meta": 2.1
+        },
+        {
+          "period": "Set 2025",
+          "value": 1.79,
+          "meta": 2.1
+        },
+        {
+          "period": "Nov 2025",
+          "value": 1.87,
+          "meta": 2.1
+        }
+      ]
+    },
+    {
+      "id": "KPI-04",
+      "code": "KPI-04",
+      "name": "Crecimiento de Ventas YoY",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F2",
+      "objectiveName": "Acelerar el Crecimiento de Ingresos",
+      "unit": "%",
+      "meta": 15,
+      "real": 12.3,
+      "achievement": 82,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Crecimiento al 82% de la meta. Acelerar pipeline comercial y campañas de upsell.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 9.74,
+          "meta": 15
+        },
+        {
+          "period": "Mar 2025",
+          "value": 10.25,
+          "meta": 15
+        },
+        {
+          "period": "May 2025",
+          "value": 10.76,
+          "meta": 15
+        },
+        {
+          "period": "Jul 2025",
+          "value": 11.28,
+          "meta": 15
+        },
+        {
+          "period": "Set 2025",
+          "value": 11.79,
+          "meta": 15
+        },
+        {
+          "period": "Nov 2025",
+          "value": 12.3,
+          "meta": 15
+        }
+      ]
+    },
+    {
+      "id": "KPI-05",
+      "code": "KPI-05",
+      "name": "Ingresos Totales Anuales",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F2",
+      "objectiveName": "Acelerar el Crecimiento de Ingresos",
+      "unit": "S/ MM",
+      "meta": 8.5,
+      "real": 7.9,
+      "achievement": 92.9,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "Ingresos 7.2% por debajo de meta. Revisar estrategia de precios y mix de productos.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 6.25,
+          "meta": 8.5
+        },
+        {
+          "period": "Mar 2025",
+          "value": 6.58,
+          "meta": 8.5
+        },
+        {
+          "period": "May 2025",
+          "value": 6.91,
+          "meta": 8.5
+        },
+        {
+          "period": "Jul 2025",
+          "value": 7.24,
+          "meta": 8.5
+        },
+        {
+          "period": "Set 2025",
+          "value": 7.57,
+          "meta": 8.5
+        },
+        {
+          "period": "Nov 2025",
+          "value": 7.9,
+          "meta": 8.5
+        }
+      ]
+    },
+    {
+      "id": "KPI-06",
+      "code": "KPI-06",
+      "name": "Ingresos por Nuevos Productos",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F2",
+      "objectiveName": "Acelerar el Crecimiento de Ingresos",
+      "unit": "%",
+      "meta": 20,
+      "real": 15.6,
+      "achievement": 78,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Nuevos productos aportan 15.6% vs. 20% meta. Acelerar lanzamiento de Pipeline Q3.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 12.35,
+          "meta": 20
+        },
+        {
+          "period": "Mar 2025",
+          "value": 13,
+          "meta": 20
+        },
+        {
+          "period": "May 2025",
+          "value": 13.65,
+          "meta": 20
+        },
+        {
+          "period": "Jul 2025",
+          "value": 14.3,
+          "meta": 20
+        },
+        {
+          "period": "Set 2025",
+          "value": 14.95,
+          "meta": 20
+        },
+        {
+          "period": "Nov 2025",
+          "value": 15.6,
+          "meta": 20
+        }
+      ]
+    },
+    {
+      "id": "KPI-07",
+      "code": "KPI-07",
+      "name": "Ratio Costo Operativo / Ingreso",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F3",
+      "objectiveName": "Optimizar la Estructura de Costos",
+      "unit": "%",
+      "meta": 55,
+      "real": 58.2,
+      "achievement": 94.5,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "LOGRADO",
+      "analysis": "Ratio de costo elevado (58.2% vs 55% meta). Automatizar procesos para reducir costos.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 65.47,
+          "meta": 55
+        },
+        {
+          "period": "Mar 2025",
+          "value": 64.02,
+          "meta": 55
+        },
+        {
+          "period": "May 2025",
+          "value": 62.57,
+          "meta": 55
+        },
+        {
+          "period": "Jul 2025",
+          "value": 61.11,
+          "meta": 55
+        },
+        {
+          "period": "Set 2025",
+          "value": 59.66,
+          "meta": 55
+        },
+        {
+          "period": "Nov 2025",
+          "value": 58.2,
+          "meta": 55
+        }
+      ]
+    },
+    {
+      "id": "KPI-08",
+      "code": "KPI-08",
+      "name": "Costo de Adquisición de Cliente (CAC)",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F3",
+      "objectiveName": "Optimizar la Estructura de Costos",
+      "unit": "S/",
+      "meta": 350,
+      "real": 412,
+      "achievement": 85,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "RIESGO",
+      "analysis": "CAC de S/412 vs S/350 meta. Optimizar canales de adquisición digital.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 463.5,
+          "meta": 350
+        },
+        {
+          "period": "Mar 2025",
+          "value": 453.2,
+          "meta": 350
+        },
+        {
+          "period": "May 2025",
+          "value": 442.9,
+          "meta": 350
+        },
+        {
+          "period": "Jul 2025",
+          "value": 432.6,
+          "meta": 350
+        },
+        {
+          "period": "Set 2025",
+          "value": 422.3,
+          "meta": 350
+        },
+        {
+          "period": "Nov 2025",
+          "value": 412,
+          "meta": 350
+        }
+      ]
+    },
+    {
+      "id": "KPI-09",
+      "code": "KPI-09",
+      "name": "Retorno sobre Activos (ROA)",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "objectiveId": "OBJ-F3",
+      "objectiveName": "Optimizar la Estructura de Costos",
+      "unit": "%",
+      "meta": 9,
+      "real": 7.8,
+      "achievement": 86.7,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "ROA bajo meta. Revisar eficiencia de activos y desinversión de activos ociosos.",
+      "responsible": "Lic. Carlos Mendoza",
+      "responsibleRole": "Director de Finanzas",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 6.18,
+          "meta": 9
+        },
+        {
+          "period": "Mar 2025",
+          "value": 6.5,
+          "meta": 9
+        },
+        {
+          "period": "May 2025",
+          "value": 6.82,
+          "meta": 9
+        },
+        {
+          "period": "Jul 2025",
+          "value": 7.15,
+          "meta": 9
+        },
+        {
+          "period": "Set 2025",
+          "value": 7.48,
+          "meta": 9
+        },
+        {
+          "period": "Nov 2025",
+          "value": 7.8,
+          "meta": 9
+        }
+      ]
+    },
+    {
+      "id": "KPI-10",
+      "code": "KPI-10",
+      "name": "NPS – Net Promoter Score",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C1",
+      "objectiveName": "Maximizar la Satisfacción del Cliente",
+      "unit": "pts",
+      "meta": 65,
+      "real": 58,
+      "achievement": 89.2,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "NPS de 58 (meta 65). Implementar programa de seguimiento post-venta en 30/60/90 días.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 45.92,
+          "meta": 65
+        },
+        {
+          "period": "Mar 2025",
+          "value": 48.33,
+          "meta": 65
+        },
+        {
+          "period": "May 2025",
+          "value": 50.75,
+          "meta": 65
+        },
+        {
+          "period": "Jul 2025",
+          "value": 53.17,
+          "meta": 65
+        },
+        {
+          "period": "Set 2025",
+          "value": 55.58,
+          "meta": 65
+        },
+        {
+          "period": "Nov 2025",
+          "value": 58,
+          "meta": 65
+        }
+      ]
+    },
+    {
+      "id": "KPI-11",
+      "code": "KPI-11",
+      "name": "CSAT – Satisfacción post-venta",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C1",
+      "objectiveName": "Maximizar la Satisfacción del Cliente",
+      "unit": "%",
+      "meta": 88,
+      "real": 84,
+      "achievement": 95.5,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "CSAT al 95.5% de meta. Reforzar proceso de onboarding y soporte técnico.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 66.5,
+          "meta": 88
+        },
+        {
+          "period": "Mar 2025",
+          "value": 70,
+          "meta": 88
+        },
+        {
+          "period": "May 2025",
+          "value": 73.5,
+          "meta": 88
+        },
+        {
+          "period": "Jul 2025",
+          "value": 77,
+          "meta": 88
+        },
+        {
+          "period": "Set 2025",
+          "value": 80.5,
+          "meta": 88
+        },
+        {
+          "period": "Nov 2025",
+          "value": 84,
+          "meta": 88
+        }
+      ]
+    },
+    {
+      "id": "KPI-12",
+      "code": "KPI-12",
+      "name": "Tiempo de Resolución de Quejas",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C1",
+      "objectiveName": "Maximizar la Satisfacción del Cliente",
+      "unit": "días",
+      "meta": 2,
+      "real": 2.8,
+      "achievement": 71.4,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "CRITICO",
+      "analysis": "Tiempo de resolución 2.8 días vs. 2 días meta. Crear equipo dedicado de soporte nivel 2.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 3.15,
+          "meta": 2
+        },
+        {
+          "period": "Mar 2025",
+          "value": 3.08,
+          "meta": 2
+        },
+        {
+          "period": "May 2025",
+          "value": 3.01,
+          "meta": 2
+        },
+        {
+          "period": "Jul 2025",
+          "value": 2.94,
+          "meta": 2
+        },
+        {
+          "period": "Set 2025",
+          "value": 2.87,
+          "meta": 2
+        },
+        {
+          "period": "Nov 2025",
+          "value": 2.8,
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "id": "KPI-13",
+      "code": "KPI-13",
+      "name": "Tasa de Retención de Clientes",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C2",
+      "objectiveName": "Aumentar la Retención y Fidelización",
+      "unit": "%",
+      "meta": 90,
+      "real": 87,
+      "achievement": 96.7,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "Retención al 96.7% de meta. Lanzar programa de fidelización con descuentos por volumen.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 68.88,
+          "meta": 90
+        },
+        {
+          "period": "Mar 2025",
+          "value": 72.5,
+          "meta": 90
+        },
+        {
+          "period": "May 2025",
+          "value": 76.13,
+          "meta": 90
+        },
+        {
+          "period": "Jul 2025",
+          "value": 79.75,
+          "meta": 90
+        },
+        {
+          "period": "Set 2025",
+          "value": 83.38,
+          "meta": 90
+        },
+        {
+          "period": "Nov 2025",
+          "value": 87,
+          "meta": 90
+        }
+      ]
+    },
+    {
+      "id": "KPI-14",
+      "code": "KPI-14",
+      "name": "Tasa de Recompra (Repeat Purchase)",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C2",
+      "objectiveName": "Aumentar la Retención y Fidelización",
+      "unit": "%",
+      "meta": 55,
+      "real": 49,
+      "achievement": 89.1,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Recompra al 89% de meta. Implementar campañas de re-engagement a los 90 días.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 38.79,
+          "meta": 55
+        },
+        {
+          "period": "Mar 2025",
+          "value": 40.83,
+          "meta": 55
+        },
+        {
+          "period": "May 2025",
+          "value": 42.88,
+          "meta": 55
+        },
+        {
+          "period": "Jul 2025",
+          "value": 44.92,
+          "meta": 55
+        },
+        {
+          "period": "Set 2025",
+          "value": 46.96,
+          "meta": 55
+        },
+        {
+          "period": "Nov 2025",
+          "value": 49,
+          "meta": 55
+        }
+      ]
+    },
+    {
+      "id": "KPI-15",
+      "code": "KPI-15",
+      "name": "Churn Rate (Tasa de Abandono)",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C2",
+      "objectiveName": "Aumentar la Retención y Fidelización",
+      "unit": "%",
+      "meta": 5,
+      "real": 7.2,
+      "achievement": 69.4,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "CRITICO",
+      "analysis": "Churn 7.2% vs. 5% meta (KPI inverso — CRÍTICO). Crear equipo de Customer Success.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 8.1,
+          "meta": 5
+        },
+        {
+          "period": "Mar 2025",
+          "value": 7.92,
+          "meta": 5
+        },
+        {
+          "period": "May 2025",
+          "value": 7.74,
+          "meta": 5
+        },
+        {
+          "period": "Jul 2025",
+          "value": 7.56,
+          "meta": 5
+        },
+        {
+          "period": "Set 2025",
+          "value": 7.38,
+          "meta": 5
+        },
+        {
+          "period": "Nov 2025",
+          "value": 7.2,
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "id": "KPI-16",
+      "code": "KPI-16",
+      "name": "Nuevos Clientes Adquiridos",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C3",
+      "objectiveName": "Expandir la Base de Clientes",
+      "unit": "#",
+      "meta": 120,
+      "real": 105,
+      "achievement": 87.5,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "105 nuevos clientes vs. 120 meta (87.5%). Ampliar fuerza de ventas en regiones.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 83.13,
+          "meta": 120
+        },
+        {
+          "period": "Mar 2025",
+          "value": 87.5,
+          "meta": 120
+        },
+        {
+          "period": "May 2025",
+          "value": 91.88,
+          "meta": 120
+        },
+        {
+          "period": "Jul 2025",
+          "value": 96.25,
+          "meta": 120
+        },
+        {
+          "period": "Set 2025",
+          "value": 100.63,
+          "meta": 120
+        },
+        {
+          "period": "Nov 2025",
+          "value": 105,
+          "meta": 120
+        }
+      ]
+    },
+    {
+      "id": "KPI-17",
+      "code": "KPI-17",
+      "name": "Cuota de Mercado",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C3",
+      "objectiveName": "Expandir la Base de Clientes",
+      "unit": "%",
+      "meta": 8.5,
+      "real": 7.8,
+      "achievement": 91.8,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "Cuota al 91.8% de meta. Ejecutar campañas de awareness en mercados objetivo.",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 6.18,
+          "meta": 8.5
+        },
+        {
+          "period": "Mar 2025",
+          "value": 6.5,
+          "meta": 8.5
+        },
+        {
+          "period": "May 2025",
+          "value": 6.82,
+          "meta": 8.5
+        },
+        {
+          "period": "Jul 2025",
+          "value": 7.15,
+          "meta": 8.5
+        },
+        {
+          "period": "Set 2025",
+          "value": 7.48,
+          "meta": 8.5
+        },
+        {
+          "period": "Nov 2025",
+          "value": 7.8,
+          "meta": 8.5
+        }
+      ]
+    },
+    {
+      "id": "KPI-18",
+      "code": "KPI-18",
+      "name": "Costo por Lead Calificado",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "objectiveId": "OBJ-C3",
+      "objectiveName": "Expandir la Base de Clientes",
+      "unit": "S/",
+      "meta": 180,
+      "real": 215,
+      "achievement": 83.7,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "RIESGO",
+      "analysis": "CAC por lead elevado. Migrar mayor presupuesto a canales orgánicos (SEO/contenido).",
+      "responsible": "Ing. Patricia Vargas",
+      "responsibleRole": "Gerente Comercial y Marketing",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 241.87,
+          "meta": 180
+        },
+        {
+          "period": "Mar 2025",
+          "value": 236.5,
+          "meta": 180
+        },
+        {
+          "period": "May 2025",
+          "value": 231.13,
+          "meta": 180
+        },
+        {
+          "period": "Jul 2025",
+          "value": 225.75,
+          "meta": 180
+        },
+        {
+          "period": "Set 2025",
+          "value": 220.38,
+          "meta": 180
+        },
+        {
+          "period": "Nov 2025",
+          "value": 215,
+          "meta": 180
+        }
+      ]
+    },
+    {
+      "id": "KPI-19",
+      "code": "KPI-19",
+      "name": "Tiempo Promedio de Entrega al Cliente",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P1",
+      "objectiveName": "Excelencia en Operaciones y Calidad",
+      "unit": "días",
+      "meta": 3,
+      "real": 3.5,
+      "achievement": 85.7,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "RIESGO",
+      "analysis": "Entrega en 3.5 días vs. 3 días meta. Revisar cuellos de botella en picking y despacho.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 3.94,
+          "meta": 3
+        },
+        {
+          "period": "Mar 2025",
+          "value": 3.85,
+          "meta": 3
+        },
+        {
+          "period": "May 2025",
+          "value": 3.76,
+          "meta": 3
+        },
+        {
+          "period": "Jul 2025",
+          "value": 3.68,
+          "meta": 3
+        },
+        {
+          "period": "Set 2025",
+          "value": 3.59,
+          "meta": 3
+        },
+        {
+          "period": "Nov 2025",
+          "value": 3.5,
+          "meta": 3
+        }
+      ]
+    },
+    {
+      "id": "KPI-20",
+      "code": "KPI-20",
+      "name": "Tasa de Defectos / Reclamos",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P1",
+      "objectiveName": "Excelencia en Operaciones y Calidad",
+      "unit": "%",
+      "meta": 2,
+      "real": 2.8,
+      "achievement": 71.4,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "CRITICO",
+      "analysis": "Defectos al 2.8% vs. 2% meta. Implementar control de calidad en cada etapa del proceso.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 3.15,
+          "meta": 2
+        },
+        {
+          "period": "Mar 2025",
+          "value": 3.08,
+          "meta": 2
+        },
+        {
+          "period": "May 2025",
+          "value": 3.01,
+          "meta": 2
+        },
+        {
+          "period": "Jul 2025",
+          "value": 2.94,
+          "meta": 2
+        },
+        {
+          "period": "Set 2025",
+          "value": 2.87,
+          "meta": 2
+        },
+        {
+          "period": "Nov 2025",
+          "value": 2.8,
+          "meta": 2
+        }
+      ]
+    },
+    {
+      "id": "KPI-21",
+      "code": "KPI-21",
+      "name": "Productividad por Empleado",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P1",
+      "objectiveName": "Excelencia en Operaciones y Calidad",
+      "unit": "S/ MM",
+      "meta": 0.25,
+      "real": 0.22,
+      "achievement": 88,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Productividad por debajo de meta. Automatizar tareas repetitivas con RPA.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 0.17,
+          "meta": 0.25
+        },
+        {
+          "period": "Mar 2025",
+          "value": 0.18,
+          "meta": 0.25
+        },
+        {
+          "period": "May 2025",
+          "value": 0.19,
+          "meta": 0.25
+        },
+        {
+          "period": "Jul 2025",
+          "value": 0.2,
+          "meta": 0.25
+        },
+        {
+          "period": "Set 2025",
+          "value": 0.21,
+          "meta": 0.25
+        },
+        {
+          "period": "Nov 2025",
+          "value": 0.22,
+          "meta": 0.25
+        }
+      ]
+    },
+    {
+      "id": "KPI-22",
+      "code": "KPI-22",
+      "name": "N° Lanzamientos de Nuevos Productos",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P2",
+      "objectiveName": "Innovación y Desarrollo de Producto",
+      "unit": "#",
+      "meta": 4,
+      "real": 3,
+      "achievement": 75,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Solo 3 de 4 productos lanzados. Acelerar MVP del 4° producto para Q4.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 2.38,
+          "meta": 4
+        },
+        {
+          "period": "Mar 2025",
+          "value": 2.5,
+          "meta": 4
+        },
+        {
+          "period": "May 2025",
+          "value": 2.63,
+          "meta": 4
+        },
+        {
+          "period": "Jul 2025",
+          "value": 2.75,
+          "meta": 4
+        },
+        {
+          "period": "Set 2025",
+          "value": 2.88,
+          "meta": 4
+        },
+        {
+          "period": "Nov 2025",
+          "value": 3,
+          "meta": 4
+        }
+      ]
+    },
+    {
+      "id": "KPI-23",
+      "code": "KPI-23",
+      "name": "Time-to-Market (lanzamiento)",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P2",
+      "objectiveName": "Innovación y Desarrollo de Producto",
+      "unit": "semanas",
+      "meta": 12,
+      "real": 15,
+      "achievement": 80,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "RIESGO",
+      "analysis": "Time-to-market 25% por encima de meta. Adoptar metodología ágil en equipos de producto.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 16.88,
+          "meta": 12
+        },
+        {
+          "period": "Mar 2025",
+          "value": 16.5,
+          "meta": 12
+        },
+        {
+          "period": "May 2025",
+          "value": 16.13,
+          "meta": 12
+        },
+        {
+          "period": "Jul 2025",
+          "value": 15.75,
+          "meta": 12
+        },
+        {
+          "period": "Set 2025",
+          "value": 15.38,
+          "meta": 12
+        },
+        {
+          "period": "Nov 2025",
+          "value": 15,
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "id": "KPI-24",
+      "code": "KPI-24",
+      "name": "% Ingresos de Productos < 2 años",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P2",
+      "objectiveName": "Innovación y Desarrollo de Producto",
+      "unit": "%",
+      "meta": 25,
+      "real": 18,
+      "achievement": 72,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "CRITICO",
+      "analysis": "Ingresos de nuevos productos al 72% de meta. Fortalecer validación de mercado pre-lanzamiento.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 14.25,
+          "meta": 25
+        },
+        {
+          "period": "Mar 2025",
+          "value": 15,
+          "meta": 25
+        },
+        {
+          "period": "May 2025",
+          "value": 15.75,
+          "meta": 25
+        },
+        {
+          "period": "Jul 2025",
+          "value": 16.5,
+          "meta": 25
+        },
+        {
+          "period": "Set 2025",
+          "value": 17.25,
+          "meta": 25
+        },
+        {
+          "period": "Nov 2025",
+          "value": 18,
+          "meta": 25
+        }
+      ]
+    },
+    {
+      "id": "KPI-25",
+      "code": "KPI-25",
+      "name": "On-Time Delivery de Proveedores (OTD)",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P3",
+      "objectiveName": "Gestión Eficiente de Proveedores",
+      "unit": "%",
+      "meta": 95,
+      "real": 92,
+      "achievement": 96.8,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "OTD al 96.8% de meta. Negociar SLAs más estrictos con los 3 proveedores críticos.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 72.83,
+          "meta": 95
+        },
+        {
+          "period": "Mar 2025",
+          "value": 76.67,
+          "meta": 95
+        },
+        {
+          "period": "May 2025",
+          "value": 80.5,
+          "meta": 95
+        },
+        {
+          "period": "Jul 2025",
+          "value": 84.33,
+          "meta": 95
+        },
+        {
+          "period": "Set 2025",
+          "value": 88.17,
+          "meta": 95
+        },
+        {
+          "period": "Nov 2025",
+          "value": 92,
+          "meta": 95
+        }
+      ]
+    },
+    {
+      "id": "KPI-26",
+      "code": "KPI-26",
+      "name": "N° Incidencias con Proveedores",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P3",
+      "objectiveName": "Gestión Eficiente de Proveedores",
+      "unit": "#",
+      "meta": 5,
+      "real": 8,
+      "achievement": 62.5,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "CRITICO",
+      "analysis": "8 incidencias vs. 5 meta. Implementar sistema de evaluación mensual de proveedores.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 9,
+          "meta": 5
+        },
+        {
+          "period": "Mar 2025",
+          "value": 8.8,
+          "meta": 5
+        },
+        {
+          "period": "May 2025",
+          "value": 8.6,
+          "meta": 5
+        },
+        {
+          "period": "Jul 2025",
+          "value": 8.4,
+          "meta": 5
+        },
+        {
+          "period": "Set 2025",
+          "value": 8.2,
+          "meta": 5
+        },
+        {
+          "period": "Nov 2025",
+          "value": 8,
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "id": "KPI-27",
+      "code": "KPI-27",
+      "name": "Costo de Inventario sobre Ventas",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "objectiveId": "OBJ-P3",
+      "objectiveName": "Gestión Eficiente de Proveedores",
+      "unit": "%",
+      "meta": 12,
+      "real": 14.5,
+      "achievement": 82.8,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "RIESGO",
+      "analysis": "Inventario al 20.8% sobre meta. Revisar política de stock mínimo y modelo de compras.",
+      "responsible": "Ing. Fernando Soto",
+      "responsibleRole": "Gerente de Operaciones y TI",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 16.31,
+          "meta": 12
+        },
+        {
+          "period": "Mar 2025",
+          "value": 15.95,
+          "meta": 12
+        },
+        {
+          "period": "May 2025",
+          "value": 15.59,
+          "meta": 12
+        },
+        {
+          "period": "Jul 2025",
+          "value": 15.23,
+          "meta": 12
+        },
+        {
+          "period": "Set 2025",
+          "value": 14.86,
+          "meta": 12
+        },
+        {
+          "period": "Nov 2025",
+          "value": 14.5,
+          "meta": 12
+        }
+      ]
+    },
+    {
+      "id": "KPI-28",
+      "code": "KPI-28",
+      "name": "Horas de Capacitación por Empleado",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A1",
+      "objectiveName": "Desarrollar el Capital Humano",
+      "unit": "hrs",
+      "meta": 40,
+      "real": 35,
+      "achievement": 87.5,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "35 hrs vs. 40 hrs meta (87.5%). Agregar 2 sesiones de capacitación virtual mensual.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 27.71,
+          "meta": 40
+        },
+        {
+          "period": "Mar 2025",
+          "value": 29.17,
+          "meta": 40
+        },
+        {
+          "period": "May 2025",
+          "value": 30.63,
+          "meta": 40
+        },
+        {
+          "period": "Jul 2025",
+          "value": 32.08,
+          "meta": 40
+        },
+        {
+          "period": "Set 2025",
+          "value": 33.54,
+          "meta": 40
+        },
+        {
+          "period": "Nov 2025",
+          "value": 35,
+          "meta": 40
+        }
+      ]
+    },
+    {
+      "id": "KPI-29",
+      "code": "KPI-29",
+      "name": "% Empleados con Plan de Desarrollo",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A1",
+      "objectiveName": "Desarrollar el Capital Humano",
+      "unit": "%",
+      "meta": 80,
+      "real": 72,
+      "achievement": 90,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "72% vs. 80% meta. Hacer obligatoria la capacitación para todos los equipos de ventas.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 57,
+          "meta": 80
+        },
+        {
+          "period": "Mar 2025",
+          "value": 60,
+          "meta": 80
+        },
+        {
+          "period": "May 2025",
+          "value": 63,
+          "meta": 80
+        },
+        {
+          "period": "Jul 2025",
+          "value": 66,
+          "meta": 80
+        },
+        {
+          "period": "Set 2025",
+          "value": 69,
+          "meta": 80
+        },
+        {
+          "period": "Nov 2025",
+          "value": 72,
+          "meta": 80
+        }
+      ]
+    },
+    {
+      "id": "KPI-30",
+      "code": "KPI-30",
+      "name": "Índice de Competencias Clave Cubiertas",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A1",
+      "objectiveName": "Desarrollar el Capital Humano",
+      "unit": "%",
+      "meta": 85,
+      "real": 74,
+      "achievement": 87.1,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "74% vs. 85% meta. Identificar brechas de competencias y crear plan de cierre por área.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 58.58,
+          "meta": 85
+        },
+        {
+          "period": "Mar 2025",
+          "value": 61.67,
+          "meta": 85
+        },
+        {
+          "period": "May 2025",
+          "value": 64.75,
+          "meta": 85
+        },
+        {
+          "period": "Jul 2025",
+          "value": 67.83,
+          "meta": 85
+        },
+        {
+          "period": "Set 2025",
+          "value": 70.92,
+          "meta": 85
+        },
+        {
+          "period": "Nov 2025",
+          "value": 74,
+          "meta": 85
+        }
+      ]
+    },
+    {
+      "id": "KPI-31",
+      "code": "KPI-31",
+      "name": "Índice de Satisfacción del Empleado",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A2",
+      "objectiveName": "Fortalecer la Cultura y el Clima",
+      "unit": "%",
+      "meta": 75,
+      "real": 68,
+      "achievement": 90.7,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "Satisfacción al 90.7% de meta. Lanzar encuesta trimestral y plan de acción en 30 días.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 53.83,
+          "meta": 75
+        },
+        {
+          "period": "Mar 2025",
+          "value": 56.67,
+          "meta": 75
+        },
+        {
+          "period": "May 2025",
+          "value": 59.5,
+          "meta": 75
+        },
+        {
+          "period": "Jul 2025",
+          "value": 62.33,
+          "meta": 75
+        },
+        {
+          "period": "Set 2025",
+          "value": 65.17,
+          "meta": 75
+        },
+        {
+          "period": "Nov 2025",
+          "value": 68,
+          "meta": 75
+        }
+      ]
+    },
+    {
+      "id": "KPI-32",
+      "code": "KPI-32",
+      "name": "Rotación de Personal (Turnover)",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A2",
+      "objectiveName": "Fortalecer la Cultura y el Clima",
+      "unit": "%",
+      "meta": 8,
+      "real": 10,
+      "achievement": 80,
+      "isInverse": true,
+      "direction": "menor",
+      "status": "RIESGO",
+      "analysis": "Rotación 10% vs. 8% meta (KPI inverso — CRÍTICO). Revisar esquema de compensación y línea de carrera.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 11.25,
+          "meta": 8
+        },
+        {
+          "period": "Mar 2025",
+          "value": 11,
+          "meta": 8
+        },
+        {
+          "period": "May 2025",
+          "value": 10.75,
+          "meta": 8
+        },
+        {
+          "period": "Jul 2025",
+          "value": 10.5,
+          "meta": 8
+        },
+        {
+          "period": "Set 2025",
+          "value": 10.25,
+          "meta": 8
+        },
+        {
+          "period": "Nov 2025",
+          "value": 10,
+          "meta": 8
+        }
+      ]
+    },
+    {
+      "id": "KPI-33",
+      "code": "KPI-33",
+      "name": "% Empleados con Evaluación Desempeño",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A2",
+      "objectiveName": "Fortalecer la Cultura y el Clima",
+      "unit": "%",
+      "meta": 95,
+      "real": 88,
+      "achievement": 92.6,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "LOGRADO",
+      "analysis": "88% vs. 95% meta. Completar evaluaciones de desempeño pendientes antes de fin de Q3.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 69.67,
+          "meta": 95
+        },
+        {
+          "period": "Mar 2025",
+          "value": 73.33,
+          "meta": 95
+        },
+        {
+          "period": "May 2025",
+          "value": 77,
+          "meta": 95
+        },
+        {
+          "period": "Jul 2025",
+          "value": 80.67,
+          "meta": 95
+        },
+        {
+          "period": "Set 2025",
+          "value": 84.33,
+          "meta": 95
+        },
+        {
+          "period": "Nov 2025",
+          "value": 88,
+          "meta": 95
+        }
+      ]
+    },
+    {
+      "id": "KPI-34",
+      "code": "KPI-34",
+      "name": "Proyectos de Mejora Continua Activos",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A3",
+      "objectiveName": "Impulsar la Innovación Organizacional",
+      "unit": "#",
+      "meta": 6,
+      "real": 5,
+      "achievement": 83.3,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "5 de 6 proyectos activos (83.3%). Conformar equipo de mejora continua multidisciplinario.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 3.96,
+          "meta": 6
+        },
+        {
+          "period": "Mar 2025",
+          "value": 4.17,
+          "meta": 6
+        },
+        {
+          "period": "May 2025",
+          "value": 4.38,
+          "meta": 6
+        },
+        {
+          "period": "Jul 2025",
+          "value": 4.58,
+          "meta": 6
+        },
+        {
+          "period": "Set 2025",
+          "value": 4.79,
+          "meta": 6
+        },
+        {
+          "period": "Nov 2025",
+          "value": 5,
+          "meta": 6
+        }
+      ]
+    },
+    {
+      "id": "KPI-35",
+      "code": "KPI-35",
+      "name": "% Presupuesto I+D sobre Ingresos",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A3",
+      "objectiveName": "Impulsar la Innovación Organizacional",
+      "unit": "%",
+      "meta": 5,
+      "real": 3.8,
+      "achievement": 76,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "RIESGO",
+      "analysis": "Presupuesto I+D al 76% de meta. Presentar propuesta de incremento para próximo presupuesto.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 3.01,
+          "meta": 5
+        },
+        {
+          "period": "Mar 2025",
+          "value": 3.17,
+          "meta": 5
+        },
+        {
+          "period": "May 2025",
+          "value": 3.33,
+          "meta": 5
+        },
+        {
+          "period": "Jul 2025",
+          "value": 3.48,
+          "meta": 5
+        },
+        {
+          "period": "Set 2025",
+          "value": 3.64,
+          "meta": 5
+        },
+        {
+          "period": "Nov 2025",
+          "value": 3.8,
+          "meta": 5
+        }
+      ]
+    },
+    {
+      "id": "KPI-36",
+      "code": "KPI-36",
+      "name": "Ideas Implementadas de Empleados",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "objectiveId": "OBJ-A3",
+      "objectiveName": "Impulsar la Innovación Organizacional",
+      "unit": "#",
+      "meta": 24,
+      "real": 16,
+      "achievement": 66.7,
+      "isInverse": false,
+      "direction": "mayor",
+      "status": "CRITICO",
+      "analysis": "16 de 24 ideas implementadas (66.7%). Crear plataforma digital de gestión de ideas.",
+      "responsible": "Mg. Andrea Rivas",
+      "responsibleRole": "Gerente de Talento Humano",
+      "history": [
+        {
+          "period": "Ene 2025",
+          "value": 12.67,
+          "meta": 24
+        },
+        {
+          "period": "Mar 2025",
+          "value": 13.33,
+          "meta": 24
+        },
+        {
+          "period": "May 2025",
+          "value": 14,
+          "meta": 24
+        },
+        {
+          "period": "Jul 2025",
+          "value": 14.67,
+          "meta": 24
+        },
+        {
+          "period": "Set 2025",
+          "value": 15.33,
+          "meta": 24
+        },
+        {
+          "period": "Nov 2025",
+          "value": 16,
+          "meta": 24
+        }
+      ]
+    }
+  ],
+  "initiatives": [
+    {
+      "id": "INI-01",
+      "name": "Plan de Acción Estratégico para ROE – Retorno sobre Patrimonio",
+      "objectiveId": "OBJ-F1",
+      "objectiveName": "Incrementar la Rentabilidad",
+      "kpiId": "KPI-01",
+      "kpiName": "ROE – Retorno sobre Patrimonio",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 33500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "ROE por debajo del 18% meta. Revisar estructura de capital y palanca financiera.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-02",
+      "name": "Plan de Acción Estratégico para Margen EBITDA",
+      "objectiveId": "OBJ-F1",
+      "objectiveName": "Incrementar la Rentabilidad",
+      "kpiId": "KPI-02",
+      "kpiName": "Margen EBITDA",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 42000,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Margen comprimido por costos operativos. Plan de reducción de gastos en Q3-Q4.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-03",
+      "name": "Plan de Acción Estratégico para Utilidad Neta Anual",
+      "objectiveId": "OBJ-F1",
+      "objectiveName": "Incrementar la Rentabilidad",
+      "kpiId": "KPI-03",
+      "kpiName": "Utilidad Neta Anual",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 50500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Utilidad neta al 89% de la meta. Requiere incremento de márgenes o volumen.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-04",
+      "name": "Plan de Acción Estratégico para Crecimiento de Ventas YoY",
+      "objectiveId": "OBJ-F2",
+      "objectiveName": "Acelerar el Crecimiento de Ingresos",
+      "kpiId": "KPI-04",
+      "kpiName": "Crecimiento de Ventas YoY",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 59000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Crecimiento al 82% de la meta. Acelerar pipeline comercial y campañas de upsell.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-05",
+      "name": "Plan de Acción Estratégico para Ingresos Totales Anuales",
+      "objectiveId": "OBJ-F2",
+      "objectiveName": "Acelerar el Crecimiento de Ingresos",
+      "kpiId": "KPI-05",
+      "kpiName": "Ingresos Totales Anuales",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 67500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Ingresos 7.2% por debajo de meta. Revisar estrategia de precios y mix de productos.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-06",
+      "name": "Plan de Acción Estratégico para Ingresos por Nuevos Productos",
+      "objectiveId": "OBJ-F2",
+      "objectiveName": "Acelerar el Crecimiento de Ingresos",
+      "kpiId": "KPI-06",
+      "kpiName": "Ingresos por Nuevos Productos",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 76000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Nuevos productos aportan 15.6% vs. 20% meta. Acelerar lanzamiento de Pipeline Q3.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-07",
+      "name": "Plan de Acción Estratégico para Ratio Costo Operativo / Ingreso",
+      "objectiveId": "OBJ-F3",
+      "objectiveName": "Optimizar la Estructura de Costos",
+      "kpiId": "KPI-07",
+      "kpiName": "Ratio Costo Operativo / Ingreso",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 84500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Ratio de costo elevado (58.2% vs 55% meta). Automatizar procesos para reducir costos.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-08",
+      "name": "Optimización de Pauta Digital y Atribución Multicanal",
+      "objectiveId": "OBJ-F3",
+      "objectiveName": "Optimizar la Estructura de Costos",
+      "kpiId": "KPI-08",
+      "kpiName": "Costo de Adquisición de Cliente (CAC)",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 93000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "CAC de S/412 vs S/350 meta. Optimizar canales de adquisición digital.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-09",
+      "name": "Plan de Acción Estratégico para Retorno sobre Activos (ROA)",
+      "objectiveId": "OBJ-F3",
+      "objectiveName": "Optimizar la Estructura de Costos",
+      "kpiId": "KPI-09",
+      "kpiName": "Retorno sobre Activos (ROA)",
+      "perspectiveId": "FIN",
+      "perspectiveKey": "financiera",
+      "owner": "Lic. Carlos Mendoza",
+      "budget": 26500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "ROA bajo meta. Revisar eficiencia de activos y desinversión de activos ociosos.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-10",
+      "name": "Programa Integral de Voz del Cliente y Seguimiento Post-Venta",
+      "objectiveId": "OBJ-C1",
+      "objectiveName": "Maximizar la Satisfacción del Cliente",
+      "kpiId": "KPI-10",
+      "kpiName": "NPS – Net Promoter Score",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 35000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "NPS de 58 (meta 65). Implementar programa de seguimiento post-venta en 30/60/90 días.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-11",
+      "name": "Plan de Acción Estratégico para CSAT – Satisfacción post-venta",
+      "objectiveId": "OBJ-C1",
+      "objectiveName": "Maximizar la Satisfacción del Cliente",
+      "kpiId": "KPI-11",
+      "kpiName": "CSAT – Satisfacción post-venta",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 43500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "CSAT al 95.5% de meta. Reforzar proceso de onboarding y soporte técnico.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-12",
+      "name": "Creación y Equipamiento de Mesa de Ayuda Nivel 2 Especializada",
+      "objectiveId": "OBJ-C1",
+      "objectiveName": "Maximizar la Satisfacción del Cliente",
+      "kpiId": "KPI-12",
+      "kpiName": "Tiempo de Resolución de Quejas",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 52000,
+      "progress": 30,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Tiempo de resolución 2.8 días vs. 2 días meta. Crear equipo dedicado de soporte nivel 2.",
+      "impact": "Alto (Atención inmediata)"
+    },
+    {
+      "id": "INI-13",
+      "name": "Plan de Acción Estratégico para Tasa de Retención de Clientes",
+      "objectiveId": "OBJ-C2",
+      "objectiveName": "Aumentar la Retención y Fidelización",
+      "kpiId": "KPI-13",
+      "kpiName": "Tasa de Retención de Clientes",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 60500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Retención al 96.7% de meta. Lanzar programa de fidelización con descuentos por volumen.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-14",
+      "name": "Plan de Acción Estratégico para Tasa de Recompra (Repeat Purchase)",
+      "objectiveId": "OBJ-C2",
+      "objectiveName": "Aumentar la Retención y Fidelización",
+      "kpiId": "KPI-14",
+      "kpiName": "Tasa de Recompra (Repeat Purchase)",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 69000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Recompra al 89% de meta. Implementar campañas de re-engagement a los 90 días.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-15",
+      "name": "Plan de Retención Proactiva y Escuadrón Customer Success",
+      "objectiveId": "OBJ-C2",
+      "objectiveName": "Aumentar la Retención y Fidelización",
+      "kpiId": "KPI-15",
+      "kpiName": "Churn Rate (Tasa de Abandono)",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 77500,
+      "progress": 30,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Churn 7.2% vs. 5% meta (KPI inverso — CRÍTICO). Crear equipo de Customer Success.",
+      "impact": "Alto (Atención inmediata)"
+    },
+    {
+      "id": "INI-16",
+      "name": "Plan de Acción Estratégico para Nuevos Clientes Adquiridos",
+      "objectiveId": "OBJ-C3",
+      "objectiveName": "Expandir la Base de Clientes",
+      "kpiId": "KPI-16",
+      "kpiName": "Nuevos Clientes Adquiridos",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 86000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "105 nuevos clientes vs. 120 meta (87.5%). Ampliar fuerza de ventas en regiones.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-17",
+      "name": "Plan de Acción Estratégico para Cuota de Mercado",
+      "objectiveId": "OBJ-C3",
+      "objectiveName": "Expandir la Base de Clientes",
+      "kpiId": "KPI-17",
+      "kpiName": "Cuota de Mercado",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 94500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Cuota al 91.8% de meta. Ejecutar campañas de awareness en mercados objetivo.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-18",
+      "name": "Plan de Acción Estratégico para Costo por Lead Calificado",
+      "objectiveId": "OBJ-C3",
+      "objectiveName": "Expandir la Base de Clientes",
+      "kpiId": "KPI-18",
+      "kpiName": "Costo por Lead Calificado",
+      "perspectiveId": "CLI",
+      "perspectiveKey": "clientes",
+      "owner": "Ing. Patricia Vargas",
+      "budget": 28000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "CAC por lead elevado. Migrar mayor presupuesto a canales orgánicos (SEO/contenido).",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-19",
+      "name": "Plan de Acción Estratégico para Tiempo Promedio de Entrega al Cliente",
+      "objectiveId": "OBJ-P1",
+      "objectiveName": "Excelencia en Operaciones y Calidad",
+      "kpiId": "KPI-19",
+      "kpiName": "Tiempo Promedio de Entrega al Cliente",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 36500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Entrega en 3.5 días vs. 3 días meta. Revisar cuellos de botella en picking y despacho.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-20",
+      "name": "Implementación de Aseguramiento de Calidad Total (TQM) y Poka-Yoke",
+      "objectiveId": "OBJ-P1",
+      "objectiveName": "Excelencia en Operaciones y Calidad",
+      "kpiId": "KPI-20",
+      "kpiName": "Tasa de Defectos / Reclamos",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 45000,
+      "progress": 30,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Defectos al 2.8% vs. 2% meta. Implementar control de calidad en cada etapa del proceso.",
+      "impact": "Alto (Atención inmediata)"
+    },
+    {
+      "id": "INI-21",
+      "name": "Plan de Acción Estratégico para Productividad por Empleado",
+      "objectiveId": "OBJ-P1",
+      "objectiveName": "Excelencia en Operaciones y Calidad",
+      "kpiId": "KPI-21",
+      "kpiName": "Productividad por Empleado",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 53500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Productividad por debajo de meta. Automatizar tareas repetitivas con RPA.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-22",
+      "name": "Plan de Acción Estratégico para N° Lanzamientos de Nuevos Productos",
+      "objectiveId": "OBJ-P2",
+      "objectiveName": "Innovación y Desarrollo de Producto",
+      "kpiId": "KPI-22",
+      "kpiName": "N° Lanzamientos de Nuevos Productos",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 62000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Solo 3 de 4 productos lanzados. Acelerar MVP del 4° producto para Q4.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-23",
+      "name": "Plan de Acción Estratégico para Time-to-Market (lanzamiento)",
+      "objectiveId": "OBJ-P2",
+      "objectiveName": "Innovación y Desarrollo de Producto",
+      "kpiId": "KPI-23",
+      "kpiName": "Time-to-Market (lanzamiento)",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 70500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Time-to-market 25% por encima de meta. Adoptar metodología ágil en equipos de producto.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-24",
+      "name": "Aceleración de Pipeline Q3/Q4 y Validación Ágil de Nuevos Productos",
+      "objectiveId": "OBJ-P2",
+      "objectiveName": "Innovación y Desarrollo de Producto",
+      "kpiId": "KPI-24",
+      "kpiName": "% Ingresos de Productos < 2 años",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 79000,
+      "progress": 30,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Ingresos de nuevos productos al 72% de meta. Fortalecer validación de mercado pre-lanzamiento.",
+      "impact": "Alto (Atención inmediata)"
+    },
+    {
+      "id": "INI-25",
+      "name": "Plan de Acción Estratégico para On-Time Delivery de Proveedores (OTD)",
+      "objectiveId": "OBJ-P3",
+      "objectiveName": "Gestión Eficiente de Proveedores",
+      "kpiId": "KPI-25",
+      "kpiName": "On-Time Delivery de Proveedores (OTD)",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 87500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "OTD al 96.8% de meta. Negociar SLAs más estrictos con los 3 proveedores críticos.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-26",
+      "name": "Homologación, Matriz de Riesgo y Evaluación Continua de Proveedores",
+      "objectiveId": "OBJ-P3",
+      "objectiveName": "Gestión Eficiente de Proveedores",
+      "kpiId": "KPI-26",
+      "kpiName": "N° Incidencias con Proveedores",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 96000,
+      "progress": 30,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "8 incidencias vs. 5 meta. Implementar sistema de evaluación mensual de proveedores.",
+      "impact": "Alto (Atención inmediata)"
+    },
+    {
+      "id": "INI-27",
+      "name": "Optimización Just-In-Time y Modelo de Reposición Automática",
+      "objectiveId": "OBJ-P3",
+      "objectiveName": "Gestión Eficiente de Proveedores",
+      "kpiId": "KPI-27",
+      "kpiName": "Costo de Inventario sobre Ventas",
+      "perspectiveId": "PROC",
+      "perspectiveKey": "procesos",
+      "owner": "Ing. Fernando Soto",
+      "budget": 29500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Inventario al 20.8% sobre meta. Revisar política de stock mínimo y modelo de compras.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-28",
+      "name": "Campus Virtual Corporativo TechPeru y Micro-learning",
+      "objectiveId": "OBJ-A1",
+      "objectiveName": "Desarrollar el Capital Humano",
+      "kpiId": "KPI-28",
+      "kpiName": "Horas de Capacitación por Empleado",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 38000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "35 hrs vs. 40 hrs meta (87.5%). Agregar 2 sesiones de capacitación virtual mensual.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-29",
+      "name": "Plan de Acción Estratégico para % Empleados con Plan de Desarrollo",
+      "objectiveId": "OBJ-A1",
+      "objectiveName": "Desarrollar el Capital Humano",
+      "kpiId": "KPI-29",
+      "kpiName": "% Empleados con Plan de Desarrollo",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 46500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "72% vs. 80% meta. Hacer obligatoria la capacitación para todos los equipos de ventas.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-30",
+      "name": "Plan de Acción Estratégico para Índice de Competencias Clave Cubiertas",
+      "objectiveId": "OBJ-A1",
+      "objectiveName": "Desarrollar el Capital Humano",
+      "kpiId": "KPI-30",
+      "kpiName": "Índice de Competencias Clave Cubiertas",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 55000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "74% vs. 85% meta. Identificar brechas de competencias y crear plan de cierre por área.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-31",
+      "name": "Plan de Acción Estratégico para Índice de Satisfacción del Empleado",
+      "objectiveId": "OBJ-A2",
+      "objectiveName": "Fortalecer la Cultura y el Clima",
+      "kpiId": "KPI-31",
+      "kpiName": "Índice de Satisfacción del Empleado",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 63500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Satisfacción al 90.7% de meta. Lanzar encuesta trimestral y plan de acción en 30 días.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-32",
+      "name": "Reestructuración Salarial Competitiva y Plan de Carrera 2025",
+      "objectiveId": "OBJ-A2",
+      "objectiveName": "Fortalecer la Cultura y el Clima",
+      "kpiId": "KPI-32",
+      "kpiName": "Rotación de Personal (Turnover)",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 72000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Rotación 10% vs. 8% meta (KPI inverso — CRÍTICO). Revisar esquema de compensación y línea de carrera.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-33",
+      "name": "Plan de Acción Estratégico para % Empleados con Evaluación Desempeño",
+      "objectiveId": "OBJ-A2",
+      "objectiveName": "Fortalecer la Cultura y el Clima",
+      "kpiId": "KPI-33",
+      "kpiName": "% Empleados con Evaluación Desempeño",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 80500,
+      "progress": 85,
+      "status": "En fase final",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "88% vs. 95% meta. Completar evaluaciones de desempeño pendientes antes de fin de Q3.",
+      "impact": "Preventivo"
+    },
+    {
+      "id": "INI-34",
+      "name": "Plan de Acción Estratégico para Proyectos de Mejora Continua Activos",
+      "objectiveId": "OBJ-A3",
+      "objectiveName": "Impulsar la Innovación Organizacional",
+      "kpiId": "KPI-34",
+      "kpiName": "Proyectos de Mejora Continua Activos",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 89000,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "5 de 6 proyectos activos (83.3%). Conformar equipo de mejora continua multidisciplinario.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-35",
+      "name": "Plan de Acción Estratégico para % Presupuesto I+D sobre Ingresos",
+      "objectiveId": "OBJ-A3",
+      "objectiveName": "Impulsar la Innovación Organizacional",
+      "kpiId": "KPI-35",
+      "kpiName": "% Presupuesto I+D sobre Ingresos",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 97500,
+      "progress": 55,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "Presupuesto I+D al 76% de meta. Presentar propuesta de incremento para próximo presupuesto.",
+      "impact": "Medio"
+    },
+    {
+      "id": "INI-36",
+      "name": "Lanzamiento de Plataforma Digital de Innovación Abierta e Intraemprendimiento",
+      "objectiveId": "OBJ-A3",
+      "objectiveName": "Impulsar la Innovación Organizacional",
+      "kpiId": "KPI-36",
+      "kpiName": "Ideas Implementadas de Empleados",
+      "perspectiveId": "APR",
+      "perspectiveKey": "aprendizaje",
+      "owner": "Mg. Andrea Rivas",
+      "budget": 31000,
+      "progress": 30,
+      "status": "En ejecución",
+      "startDate": "2025-01-15",
+      "endDate": "2025-11-30",
+      "description": "16 de 24 ideas implementadas (66.7%). Crear plataforma digital de gestión de ideas.",
+      "impact": "Alto (Atención inmediata)"
+    }
+  ]
+}
